@@ -1,4 +1,4 @@
-
+import ReadMore from "../assets/icons/ReadMore.png";
 
 const LearnMoreBlog = () => {
     return (
@@ -13,31 +13,123 @@ const LearnMoreBlog = () => {
 
             </p>
 
-            <div className="LMB_content flex flex-col w-[1536px] h-[632px] gap-[80px]">
+            <div className="LMB_content flex flex-col w-[1536px] h-[632px] gap-[80px] absolute top-[105px]">
 
-                <div className="LMB_content_1 flex flex-row w-[1462px] h-[236px] gap-[32px]">
+                <div className="LMB_content_1 flex flex-row w-[1462px] h-[236px] gap-[32px] ml-auto mr-auto">
                     
-                    <div className="LMB_c1 flex flex-col w-[466px] h[188px] pl-[8px] gap-[16px]">
+                    <div className="LMB_c1 flex flex-col w-[466px] h-[188px] pl-[8px] gap-[16px]">
 
                         <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
                             Learning & Development
                         </p>
 
-                        <p className="LMB_c1_p2 w-[458px] h-[96px] font-archivo font-semibold text-[32px] leading-[150%] tracking-[0px] text-[#262626]">
+                        <p className="LMB_c1_p2 w-[458px] h-[96px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
                             3 Main C++ Compiler Tips to Develop Successful Apps
                         </p>
 
-                        <div className="LMB_ReadMore flex flex-row">
-                            <p className="LMB_RM_1 "></p>
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+                            
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore"/>
                         </div>
 
                     </div>
 
-                    <div className="LMB_c2 flex flex-col w-[466px] h[236px] pl-[8px] gap-[16px]">
+                    <div className="LMB_c2 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]">
+                        <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
+                            Learning & Development
+                        </p>
+
+                        <p className="LMB_c1_p2 w-[458px] h-[144px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
+                            Top 5 Platforms For Windows Applications Development in 2022
+                        </p>
+
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore" />
+                        </div>
 
                     </div>
 
-                    <div className="LMB_c3 flex flex-col w-[466px] h[188px] pl-[8px] gap-[16px]">
+                    <div className="LMB_c3 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]">
+                        <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
+                            Learning & Development
+                        </p>
+
+                        <p className="LMB_c1_p2 w-[458px] h-[144px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
+                            Everything You Need to Know About Cross-Platform Development
+                        </p>
+
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div className="Sing_lLine w-[1536px] border border-[#D4D4D4] border-dashed"></div>
+
+                <div className="LMB_content_1 flex flex-row w-[1462px] h-[236px] gap-[32px] ml-auto mr-auto">
+
+                    <div className="LMB_c1 flex flex-col w-[466px] h-[188px] pl-[8px] gap-[16px]">
+
+                        <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
+                            Learning & Development
+                        </p>
+
+                        <p className="LMB_c1_p2 w-[458px] h-[144px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
+                            A Complete Guide To Programming In C++ – Visual Programming
+                        </p>
+
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore" />
+                        </div>
+
+                    </div>
+
+                    <div className="LMB_c2 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]">
+                        <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
+                            Learning & Development
+                        </p>
+
+                        <p className="LMB_c1_p2 w-[458px] h-[144px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
+                            A Complete Guide To Programming In C++ – Object Oriented Programming
+                        </p>
+
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore" />
+                        </div>
+
+                    </div>
+
+                    <div className="LMB_c3 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]">
+                        <p className="LMB_c1_p1 w-[458px] h-[30px] font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]">
+                            Learning & Development
+                        </p>
+
+                        <p className="LMB_c1_p2 w-[458px] h-[98px] font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]">
+                            How C++ Works With Libraries and More
+                        </p>
+
+                        <div className="LMB_ReadMore flex flex-row w-[134px] h-[30px] gap-[8px]">
+
+                            <p className="LMB_RM_1 w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] underline decoration-solid decoration-offset-[0px] decoration-[0px] text-[#525252]">Read More</p>
+
+                            <img className="ReadMore-arrow w-[28px] h-[28px]" src={ReadMore} alt="ReadMore" />
+                        </div>
 
                     </div>
 
