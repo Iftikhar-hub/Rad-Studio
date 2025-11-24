@@ -1,4 +1,5 @@
 import ReadMore from "../assets/icons/ReadMore.png";
+import MLB_Arrow from "../assets/icons/MLB_Arrow.png";
 
 const LearnMoreBlog = () => {
     return (
@@ -136,6 +137,8 @@ const LearnMoreBlog = () => {
                 </div>
 
             </div>
+
+            <img className="w-[60px] h-[80px] absolute top-[-1px] right-[230px]" src={MLB_Arrow} alt="MLB_Arrow" />
 
 
 

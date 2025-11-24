@@ -5,6 +5,8 @@ import RADStudioHere from "./components/RADStudioHere";
 import YourImagination from "./components/YourImagination";
 import GetRADStudio from "./components/GetRADStudio";
 import LearnMoreBlog from "./components/LearnMoreBlog";
+import JoinOurCommunity from "./components/JoinOurCommunity";
+import RADFooter from "./components/RADFooter";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <YourImagination />
       <GetRADStudio />
       <LearnMoreBlog />
+      <JoinOurCommunity />
+      <RADFooter />
     </>
   );
 }
