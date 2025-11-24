@@ -9,20 +9,26 @@ import wings from "../assets/icons/wings.png"
 const GetRADStudio = () => {
     return (
 
-        <section className="Get-RAD-Studio relative w-full max-w-[1920px] h-[562px] bg-[#00000005] opacity-100 backdrop-blur-[36px] overflow-hidden mt-[128px]">
+        <section className="Get-RAD-Studio relative w-full max-w-[1920px] h-[562px] bg-[#00000005] opacity-100 backdrop-blur-[36px] overflow-hidden mt-[128px]
+        max-[1440px]:w-[1439px] max-[1440px]:h-[562px] max-[1440px]:mt-[256px]">
 
-            <img className="left_vector w-[873px] h-[964px] absolute top-[3px] left-[-23px]" src={leftVector} alt="leftVector" />
+            <img className="left_vector w-[873px] h-[964px] absolute top-[3px] left-[-23px]
+            max-[1440px]:h-[722px]" src={leftVector} alt="leftVector" />
 
-            <img className="right-vector w-[811px] h-[897px] absolute bottom-[-7px] right-[-68px]" src={rightVector} alt="rightVector" />
+            <img className="right-vector w-[811px] h-[897px] absolute bottom-[-7px] right-[-68px]
+            max-[1440px]:h-[672px]" src={rightVector} alt="rightVector" />
 
 
 
             <div className="GetRadContent absolute w-[1038px] h-[302px] opacity-100 top-[128px] left-[280px]  
-              gap-[48px] flex flex-col justify-center items-center">
+              gap-[48px] flex flex-col justify-center items-center
+              max-[1440px]:w-[598px] max-[1440px]:left-[390px] ">
 
-                <div className="GRC-logos justify-center items-center w-[1038px] h-[206px] opacity-100 flex flex-col gap-[32px]">
+                <div className="GRC-logos justify-center items-center w-[1038px] h-[206px] opacity-100 flex flex-col gap-[32px]
+                max-[1440px]:w-[598px] ">
 
-                    <div className="RGC-l1 justify-center items-center w-[1038px] h-[110px] opacity-100 flex flex-col gap-[16px]">
+                    <div className="RGC-l1 justify-center items-center w-[1038px] h-[110px] opacity-100 flex flex-col gap-[16px]
+                    max-[1440px]:w-[598px]">
                         <p className="GRC-ps w-[458px] h[58px] font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]">
                             Get RAD
                             <span className="RGC-ps1 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]">

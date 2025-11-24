@@ -33,15 +33,18 @@ const Hero = () => {
 
             </div>
 
-            <div className="heroPicture w-[1274px] h-[712px] relative ">
-                <img src={Group} alt="Group" className="" />
+            <div className="heroPicture w-[1274px] h-[712px] relative
+             max-[1440px]:w-[1279px] max-[1440px]:h-[886px] max-[1440px]:gap-[64px]">
+                <img src={Group} alt="Group" className="gimage max-[1440px]:w-[1279px] max-[1440px]:h-[712px]" />
 
-                <div className="bg-black absolute top-[0] w-[100%] h-[100%] rounded-[16px] flex justify-center items-center bg-black/85">
-                    <img src={playbutton} alt="playbutton" className="" />
+                <div className="bg-black absolute top-[0] w-[100%] h-[100%] rounded-[16px] flex justify-center items-center bg-black/85
+                max-[1440px]:w-[1279px] max-[1440px]:h-[712px] max-[1440px]:top-[10px] max-[1440px]:left-[-10px]">
+                    <img src={playbutton} alt="playbutton" className="playButton max-[1440px]:w-[85px] max-[1440px]:h-[85px]" />
 
                 </div>
                 <div className="heroLower w-[100%] h-[107px] rounded-[16px] border py-[24px] px-[32px]   
-                    gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]">
+                    gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
+                    max-[1440px]:w-[1279px]">
 
                     <div className="flex flex-row justify-center items-center w-[1011px] h-[59px] gap-4">
                         <img src={rad} alt="rad" className="w-[48px] h-[48px]" />

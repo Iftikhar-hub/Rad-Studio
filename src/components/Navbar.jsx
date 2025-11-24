@@ -4,21 +4,24 @@ import downArrow from "../assets/icons/downArrow.png";
 
 const Navbar = () => {
     return (
-        <div className="contaner">
-            <section className="max-w-[1920px] h-[70px] px-[196px] py-[16px] flex justify-between items-center">
-                <div className="log  flex items-center">
+        <div className="contaner max-[1449px]:w-[1440px]">
+            <section className="max-w-[1920px] h-[70px] px-[196px] py-[16px] flex justify-between items-center
+            max-[1449px]:w-[1440px] max-[1449px]:px-[80px]">
+
+                <div className="log  flex items-center max-[1440px]:w-[280px] max-[1440px]:h-[24px] max-[1440px]:gap-[8px]">
                     <img src={logo} alt="Logo" className="right-icon" />
                 </div>
 
-                <div className="centerLinks flex gap-[15px]">
+                <div className="centerLinks flex gap-[15px]
+                max-[1440px]:w-[495px] max-[1440px]:h-[21px] max-[1440px]:gap-[24px]">
                     <div className="Link-1 flex items-center justify-center ">
                         <p>Products</p>
                         <img src={downArrow} alt="downArrow" className="downArrow w-[19px] h-[19px]" />
 
 
                     </div>
-                    <div className="Link-1 flex items-center justify-center">
-                        <p>Free Tools</p>
+                    <div className="Link-1 flex items-center justify-center max-[1440px]:w-[100px]">
+                        <p className="FTpp max-[1440px]:w-[90px]">Free Tools</p>
                         <img src={downArrow} alt="downArrow" className="downArrow w-[19px] h-[19px]" />
 
                     </div>
@@ -34,13 +37,14 @@ const Navbar = () => {
                         <p>Getit</p>
 
                     </div>
-                    <div className="Link-1 flex items-center justify-center">
-                        <p>New Tools</p>
+                    <div className="Link-1 flex  justify-center">
+                        <p className="ppppppp max-[1440px]:w-[73px]">New Tools</p>
 
                     </div>
                 </div>
 
-                <div className="right-Buttons flex gap-[15px]">
+                <div className="right-Buttons flex gap-[15px] 
+                max-[1440px]:w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]">
                     <button className="btn w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]" type="button">Sign in</button>
 
                     <button
@@ -60,7 +64,8 @@ const Navbar = () => {
                 </div>
             </section>
 
-            <div className="navBottom w-full max-w-[1920px] mx-auto h-[53px] flex justify-between items-center rounded-[6px] py-[16px] px-[192px]">
+            <div className="navBottom w-full max-w-[1920px] mx-auto h-[53px] flex justify-between items-center rounded-[6px] py-[16px] px-[192px]
+            max-[1449px]:w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]">
 
                 <dvi className="navBottom-left flex items-center w-[228px] h-[21px] gap-[8px]">
                     <a href="#" className="flex items-center w-[39px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626]">
