@@ -7,8 +7,8 @@ const LearnMoreBlog = () => {
         <section className="Learn_More_Blog w-[1536px] h-[804px] mt-[128px] relative m-auto
         max-[1440px]:w-[1280px] max-[1440px]:h-[814px] max-[1440px]:gap-[80px]">
 
-            <p className="LMB_P w-[784px] h-[58px] absolute top-[0] left-[393px] opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
-            max-[1440px]:w-[1280px] max-[1440px]:left-[232px]">
+            <p className="LMB_P absolute top-[0] left-[393px] opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
+            max-[1440px]:left-[232px]">
                 Learn More on the
                 <span className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[8px]">
                     Embarcadero Blog

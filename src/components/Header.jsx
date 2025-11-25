@@ -2,10 +2,10 @@ import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
 
 const Header = () => {
     return (
-        <section className="max-w-[1920px]  bg-[#262626] text-white px-4 py-2
+        <section className="headerTopp w-[100%]  bg-[#262626] text-white px-4 py-2
           max-[1440px]:w-[1440px]">
-            <div className="max-w-[1920px] h-[56px] mx-auto flex justify-between items-center px-[80px] py-[16px]
-            max-[1440px]:w-[1440px] max-[1440px]:h-[53px]">
+            <div className="hd_t1 w-[100%] h-[56px] mx-auto flex justify-between items-center px-[80px] py-[16px]
+            max-[1440px]:w-[100%] max-[1440px]:h-[53px]">
 
                 <div className="text-sm">
                     <p>

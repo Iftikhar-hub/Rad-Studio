@@ -8,7 +8,7 @@ const YourImagination = () => {
          gap-[48px] m-auto
          max-[1440px]:w-[1280px] max-[1440px]:h-[1075px] max-[1440px]:gap-[48px]">
 
-            <div className="Imagination-pTag-span w-[490px] h-[58px] mt-[100px] m-auto
+            <div className="Imagination-pTag-span mt-[100px] m-auto
             max-[1440px]:w-[481px]">
                 <p className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626]">
                         Ignite

@@ -5,7 +5,7 @@ import downArrow from "../assets/icons/downArrow.png";
 const Navbar = () => {
     return (
         <div className="contaner max-[1449px]:w-[1440px]">
-            <section className="max-w-[1920px] h-[70px] px-[196px] py-[16px] flex justify-between items-center
+            <section className="w-[100%] h-[70px] px-[196px] py-[16px] flex justify-between items-center
             max-[1449px]:w-[1440px] max-[1449px]:px-[80px]">
 
                 <div className="log  flex items-center max-[1440px]:w-[280px] max-[1440px]:h-[24px] max-[1440px]:gap-[8px]">
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </div>
             </section>
 
-            <div className="navBottom w-full max-w-[1920px] mx-auto h-[53px] flex justify-between items-center rounded-[6px] py-[16px] px-[192px]
+            <div className="navBottom w-[100%] mx-auto h-[53px] flex justify-between items-center rounded-[6px] py-[16px] px-[192px]
             max-[1449px]:w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]">
 
                 <dvi className="navBottom-left flex items-center w-[228px] h-[21px] gap-[8px]">
@@ -84,25 +84,25 @@ const Navbar = () => {
 
                 <div className="navBottom-left flex items-center h-[21px] gap-[8px]">
 
-                    <a className="flex items-center w-[85px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">What's New?</a>
-                    <p className="w-[5px] h-[21px] font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
+                    <a className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">What's New?</a>
+                    <p className=" font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
                         -
                     </p>
 
 
-                    <a className="flex items-center w-[99px] h-[21px] gap-[10px]font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Product Edition</a>
-                    <p className="w-[5px] h-[21px] font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
+                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Product Edition</a>
+                    <p className="font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
                         -
                     </p>
 
 
-                    <a className="flex items-center w-[110px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Previous Version</a>
-                    <p className="w-[5px] h-[21px] font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
+                    <a className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Previous Version</a>
+                    <p className=" font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
                         -
                     </p>
 
 
-                    <a className="flex items-center w-[70px] h-[21px] gap-[10px]font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"  href="#">Customers</a>
+                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"  href="#">Customers</a>
             
 
                 </div>

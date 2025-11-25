@@ -51,9 +51,9 @@ const Hero = () => {
 
                         <div className="flex flex-col w-[947px] h-[59px]">
 
-                            <p className="w-[282px] h-[33px] text-[#262626] font-archivo font-semibold text-[22px] leading-[33px] tracking-normal">RAD Studio 11.2 Resources</p>
+                            <p className="text-[#262626] font-archivo font-semibold text-[22px] leading-[33px] tracking-normal">RAD Studio 11.2 Resources</p>
 
-                            <p className="w-[947px] h-[26px] text-[#262626] font-archivo font-[400] text-[17px] leading-[150%] tracking-normal">PDF's Videos & Courses of the Product</p>
+                            <p className="text-[#262626] font-archivo font-[400] text-[17px] leading-[150%] tracking-normal">PDF's Videos & Courses of the Product</p>
 
                         </div>
                         
