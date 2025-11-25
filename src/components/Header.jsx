@@ -3,9 +3,12 @@ import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
 const Header = () => {
     return (
         <section className="headerTopp w-[100%]  bg-[#262626] text-white px-4 py-2
-          max-[1440px]:w-[1440px]">
-            <div className="hd_t1 w-[100%] h-[56px] mx-auto flex justify-between items-center px-[80px] py-[16px]
-            max-[1440px]:w-[100%] max-[1440px]:h-[53px]">
+          max-[1440px]:w-[1440px]
+          max-[744px]:w-[100%]">
+            <div className="hd_t1 w-[100%] h-[56px] mx-auto flex justify-between items-center px-[80px] py-  
+               [16px]
+               max-[1440px]:w-[100%] max-[1440px]:h-[53px]
+               max-[744px]:w-[100%] max-[744px]:px-[24px]">
 
                 <div className="text-sm">
                     <p>
@@ -19,7 +22,8 @@ const Header = () => {
                 <div className="flex items-center space-x-6">
 
     
-                    <div className="hidden md:flex space-x-6 text-sm">
+                    <div className="hidden md:flex space-x-6 text-sm
+                    max-[744px]:hidden">
                         <a href="#" className="hover:text-gray-300">My Downloads</a>
                         <a href="#" className="hover:text-gray-300">Upgrade Center</a>
                         <a href="#" className="hover:text-gray-300">My Customer Portal</a>

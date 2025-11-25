@@ -27,7 +27,7 @@ const JoinOurCoummunity = () => {
 
                 </div>
 
-                <div className="JOC_c2 flex flex-row w-[491px] h-[52px] gap-[16px] mt-[64px]
+                <div className="JOC_c2 flex flex-row w-[491px] h-[52px] gap-[16px]
                 max-[1440px]:h-[48px] max-[1449px]:mt-[64px]">
                     <input className="JOC_emailAddress w-[354px] h-[100%] rounded-[8px] border border-[#D4D4D4] bg-[#FFFFFFCC] py-[18px] px-[20px] gap=[10px] backdrop-blur-[32px] text-[red]
                     max-[1440px]:w-[361px] max-[1440px]:h-[48px] max-[1440px]:py-[12px] max-[1440px]:px-[20px] max-[1440px]:gap-[10px]" type="text" placeholder="Your Email" class="
