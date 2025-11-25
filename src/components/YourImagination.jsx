@@ -26,13 +26,14 @@ const YourImagination = () => {
             
             <div className="Imagination-Container flex flex-col items-center w-[1536px] h-[845px]
               max-[1440px]:w-[1280px] max-[1440px]:h-[969px] max-[1440px]:gap-[32px]
-               max-[744px]:w-[696px]  max-[744px]:gap-[24px]">
+               max-[744px]:w-[696px]  max-[744px]:gap-[24px] ">
 
                 <div className="ImaginationNav flex flex-row w-full h-f rounded-[16px] border border- 
                   [#E5E5E5] p-[8px] justify-center
                   max-[1440px]:w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
 
-                  max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center">
+                  max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center
+                  max-[744px]:py-[35px]">
 
                     <a className="I-Ds bg-[#262626] text-[white] flex flex-row w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-[#525252] text-center
                     max-[1440px]:w-[180px] max-[1440px]:h-[57px]
