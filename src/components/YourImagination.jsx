@@ -53,7 +53,7 @@ const YourImagination = () => {
 
                     <a className="I-Dc flex flex-row  w-[217.14px] h-[57px] rounded-[12px] justify-center items-center py-[14px] px-[24px] font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-[#525252] text-center
                     max-[1440px]:w-[180px] max-[1440px]:h-[57px]
-                    max-[744px]:text-[20px] max-[744px]:w-[105px]" href="#">Code Quality</a>
+                    max-[744px]:text-[20px] max-[744px]:w-[105px]" href="#">Extend</a>
 
                     <a className="I-Dl flex flex-row  w-[217.14px] h-[57px] rounded-[12px] justify-center items-center py-[14px] px-[24px] font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-[#525252] text-center
                     max-[1440px]:w-[180px] max-[1440px]:h-[57px]
@@ -61,7 +61,7 @@ const YourImagination = () => {
 
                     <a className="I-De flex flex-row  w-[217.14px] h-[57px] rounded-[12px] justify-center items-center py-[14px] px-[24px] font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-[#525252] text-center
                     max-[1440px]:w-[180px] max-[1440px]:h-[57px]
-                    max-[744px]:text-[20px]" href="#">Extend</a>
+                    max-[744px]:text-[20px]" href="#">Code Quility</a>
 
                 </div>
 

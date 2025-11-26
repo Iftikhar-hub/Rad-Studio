@@ -25,7 +25,7 @@ const GetRADStudio = () => {
 
             <div className="GetRadContent absolute w-[100%] h-[302px] opacity-100 top-[128px]   
               gap-[48px] flex flex-col justify-center items-center
-              max-[1440px]:w-[598px] max-[1440px]:left-[390px]
+              max-[1440px]:w-[598px] max-[1440px]:left-[426px]
               max-[744px]:gap-[0px] max-[744px]:left-[94px] max-[744px]:top-[120px] ">
 
                 <div className="GRC-logos w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 

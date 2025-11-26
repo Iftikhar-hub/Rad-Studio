@@ -8,20 +8,22 @@ import logoGithub from "../assets/icons/logoGithub.png"
 const RADFooter = () => {
     return (
 
-        <section className="RAD_Footer flex flex-col justify-between w-[100%] h-[543px] py-[48px] px-[80px] bg-[#FFFFFF99]
-        max-[1440px]:w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]">
+        <section className="RAD_Footer flex flex-col justify-between w-full h-[543px] py-[48px] px-[80px] bg-[#FFFFFF99]
+        max-[1440px]:w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]
+        max-[744px]:w-full max-[744px]:px-4 max-[744px]:h-[930px] overflow-x-hidden">
 
             <div className="Footer_Content flex flex-row justify-center w-[100%] h-[342px] gap-[32px]
-            max-[1440px]:w-[1280px] max-[1440px]:flex-col max-[1440px]:h-auto max-[1440px]:gap-[24px]">
+            max-[1440px]:w-[1280px] max-[1440px]:flex-col max-[1440px]:h-auto max-[1440px]:gap-[24px]
+            max-[744px]:w-[695px]  max-[744px]:gap-[48px]">
 
                 <div className="Footer_Content_left flex flex-row gap-[16px]
                 max-[1440px]:w-[202px] max-[1440px]:h-[35px]">
                     <img className="FC_log w-[202px] h-[35px]" src={logo} alt="logo" />
                 </div>
 
-                <div className="Footer_Content_right flex justify-between gap-[70px] w-[1280px] h- 
-                    [342px]
-                     max-[1440px]:w-[1280px] max-[1440px]:h-[342px] max-[1440px]:gap-[32px]">
+                <div className="Footer_Content_right flex justify-between gap-[70px]
+                     max-[1440px]:w-[1280px]  max-[1440px]:gap-[32px]
+                     max-[744px]:w-[695px] max-[744px]:grid max-[744px]:grid-cols-3 ">
 
                     <div className="FCR_1 flex flex-col gap-[26px]">
 
@@ -48,7 +50,7 @@ const RADFooter = () => {
                     </div>
 
                     <div className="FCR_2 flex flex-col  gap-[26px]
-                    max-[1440px]:w-[222px] max-[1440px]:h-[302px]">
+                    ">
 
                         <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937]">
                             Free Tools
@@ -79,7 +81,7 @@ const RADFooter = () => {
                     </div>
 
                     <div className="FCR_3 flex flex-col  gap-[26px]
-                    max-[1440px]:w-[171px] max-[1440px]:h-[342px]">
+                    ">
 
                         <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937]">
                             Resources
@@ -113,7 +115,7 @@ const RADFooter = () => {
                     </div>
 
                     <div className="FCR_4 flex flex-col  gap-[26px]
-                    max-[1440px]:w-[110px] max-[1440px]:h-[62px]">
+                    ">
 
                         <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937]">
                             Community
@@ -125,7 +127,7 @@ const RADFooter = () => {
                     </div>
 
                     <div className="FCR_5 flex flex-col gap-[26px]
-                    max-[1440px]:w-[100px] max-[1440px]:h-[262px]">
+                    ">
 
                         <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] ">
                             Compnay
@@ -153,7 +155,7 @@ const RADFooter = () => {
                     </div>
 
                     <div className="FCR_6 flex flex-col gap-[26px]
-                    max-[1440px]:w-[205px] max-[1440px]:h-[142px]">
+                    ">
 
                         <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] ">
                             Get in Touch
@@ -175,19 +177,21 @@ const RADFooter = () => {
 
                 </div>
 
-
-
             </div>
 
-            <div className="Bottom_Footer w-[100%] h-[24px] flex justify-center items-center
-            max-[1440px]:w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]">
-                <p className="BF_P w-[864px] h-[14px] font-[Archivo] font-normal text-[14px] leading-[14px] text-[#1F2937]
-                max-[1440px]:w-[624px]">
+            <div className="Bottom_Footer w-[100%] h-[24px] flex justify-between items-center
+                max-[1440px]:w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]
+               
+                max-[744px]:w-[695px] ">
+
+                <p className="BF_P font-[Archivo] font-normal text-[14px] leading-[14px] text-[#1F2937]
+                ">
                     2022 Embarcadero Inc. All Rights Reserved
                 </p>
 
                 <dvi className="BF_Icons flex flex-row w-[864px] justify-end h-[24px] gap-[24px]
-                max-[1440px]:w-[624px]">
+                max-[1440px]:w-[624px]
+                max-[744px]:w-[331px]">
 
                     <img className="logoBF w-[24px] h-[24px]" src={logoTwitter} alt="logoTwitter" />
                     <img className="logoBF w-[24px] h-[24px]" src={logoFacebook} alt="logoFacebook" />

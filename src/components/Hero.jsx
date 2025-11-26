@@ -5,12 +5,13 @@ import rad from "../assets/icons/rad.png";
 const Hero = () => {
     return (
         <section className="flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]
-        max-[744px]:w-[744px]">
+        max-[744px]:w-[744px]
+        max-[375px]:w-full max-[375px]:max-w-[375px]">
 
-            <div className="hero-container opacity-100 flex flex-col justify-center items-center w-[434px] h-[190px] gap-[24px]
-            max-[744px]:w-[434px]">
+            <div className="hero-container opacity-100 flex flex-col justify-center items-center w-  
+             [434px] h-[190px] gap-[24px]
+             max-[744px]:w-[434px]">
                 
-
                 <div className="hero-container-1 flex flex-col justify-center items-center w-[370px] h-[118px] gap-[16px]">
 
                     <p className="hero_cp1 font-archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)] 
@@ -44,8 +45,8 @@ const Hero = () => {
                 max-[744px]:w-[695px] max-[744px]:h-[389px]" />
 
                 <div className="bg-black absolute top-[0] w-[100%] h-[100%] rounded-[16px] flex justify-center items-center bg-black/85
-                max-[1440px]:w-[1279px] max-[1440px]:h-[712px] max-[1440px]:top-[10px] max-[1440px]:left-[-10px]
-                max-[744px]:w-[695px] max-[744px]:h-[389px]">
+                max-[1440px]:w-[1279px] max-[1440px]:h-[712px] max-[1440px]:top-[10px] max-[1440px]:left-[-10px] max-[1440px]:top-[0px] max-[1440px]:left-[0px]
+                max-[744px]:w-[695px] max-[744px]:h-[389px] max-[744px]:top-[0px] max-[744px]:left-[0px]">
                     <img src={playbutton} alt="playbutton" className="playButton max-[1440px]:w-[85px] max-[1440px]:h-[85px]
                     max-[744px]:w-[47px] max-[744px]:h-[47px]" />
 

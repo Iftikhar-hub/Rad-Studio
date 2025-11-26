@@ -6,13 +6,17 @@ import menaImage from "../assets/icons/menaImage.png";
 const Navbar = () => {
     return (
         <div className="contaner max-[1449px]:w-[1440px]
-          max-[744px]:w-[744px]">
-            <section className="w-[100%] h-[70px] px-[196px] py-[16px] flex justify-between items-center
-            max-[1449px]:w-[1440px] max-[1449px]:px-[80px]
-            max-[744px]:w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]">
+          max-[744px]:w-[744px]
+          max-[375px]:w-full max-[375px]:max-w-[375px]">
 
-                <div className="log  flex items-center max-[1440px]:w-[280px] max-[1440px]:h-[24px] max-[1440px]:gap-[8px]
-                max-[744px]:w-[139px]">
+            <section className="w-[100%] h-[70px] px-[196px] py-[16px] flex justify-between items-center
+              max-[1449px]:w-[1440px] max-[1449px]:px-[80px]
+              max-[744px]:w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
+              max-[375px]:w-full max-[375px]:max-w-[375px]">
+
+                <div className="log flex items-center max-[1440px]:w-[280px] max-[1440px]:h-[24px] max-[1440px]:gap-[8px]
+                max-[744px]:w-[139px]
+                max-[375px]:w-[100%]">
                     <img src={logo} alt="Logo" className="right-icon" />
                 </div>
 
@@ -49,13 +53,16 @@ const Navbar = () => {
                 </div>
 
                 <div className="right-Buttons flex flex-row justify-between gap-[15px] 
-                max-[1440px]:w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]
-                max-[744px]:w-[320px]  max-[744px]:items-center">
-                    <button className="btn w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]" type="button">Sign in</button>
+                  max-[1440px]:w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]
+                  max-[744px]:w-[320px]  max-[744px]:items-center
+                  max-[375px]:justify-end">
+
+                    <button className="btn w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
+                    max-[375px]:hidden" type="button">Sign in</button>
 
                     <button
                         type="button"
-                        className="btn w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626]"
+                        className="btn w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] max-[375px]:hidden"
                     >
                         Buy now
                     </button>
@@ -71,10 +78,11 @@ const Navbar = () => {
                 </div>
             </section>
 
-            <div className="navBottom w-[100%] mx-auto h-[53px] flex justify-between items-center rounded- 
-              [6px] py-[16px] px-[192px]
+            <div className="navBottom w-[100%] mx-auto h-[53px] flex justify-between items-center  
+              rounded-[6px] py-[16px] px-[192px]
               max-[1449px]:w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]
-              max-[744px]:w-[744px] max-[744px]:h-[90px] max-[744px]:px-[24px] max-[744px]:py-[16px] max-[744px]:flex-col max-[744px]:gap-[16px]">
+              max-[744px]:w-[744px] max-[744px]:h-[90px] max-[744px]:px-[24px] max-[744px]:py-[16px] max-[744px]:flex-col max-[744px]:gap-[16px]
+              max-[375px]:w-full max-[375px]:max-w-[375px] max-[375px]:flex-col ">
 
                 <dvi className="navBottom-left flex items-center w-[228px] h-[21px] gap-[8px]">
                     <a href="#" className="flex items-center w-[39px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626]">
@@ -91,27 +99,22 @@ const Navbar = () => {
 
                 </dvi>
 
-                <div className="navBottom-left flex items-center h-[21px] gap-[8px]">
+                <div className="navBottom-left flex items-center h-[21px] gap-[8px]
+                max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:w-[344px]">
 
-                    <a className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">What's New?</a>
-                    <p className=" font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
-                        -
-                    </p>
+                    <a className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">What's New? -</a>
+                    
 
 
-                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Product Edition</a>
-                    <p className="font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
-                        -
-                    </p>
+                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Product Edition -</a>
+                   
 
 
                     <a className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline" href="#">Previous Version</a>
-                    <p className=" font-archivo font-semibold text-[14px] leading-[21px] tracking-[0px] text-[#A3A3A3]">
-                        -
-                    </p>
+                    
 
 
-                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"  href="#">Customers</a>
+                    <a className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[375px]:ml-[135px]"  href="#">Customers</a>
             
 
                 </div>
