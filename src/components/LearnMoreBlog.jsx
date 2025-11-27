@@ -6,15 +6,18 @@ const LearnMoreBlog = () => {
 
         <section className="Learn_More_Blog w-[100%] h-[804px] mt-[128px] relative m-auto
          max-[1440px]:max-w-[1280px] max-[1440px]:w-full max-[1440px]:h-[814px] max-[1440px]:gap-[80px]
-         max-[744px]:max-w-[695px] max-[744px]:w-full max-[744px]:gap-[64px]">
+         max-[744px]:max-w-[695px] max-[744px]:w-full max-[744px]:gap-[64px]
+         max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:gap-[30px]
+         max-[375px]:mt-[80px]">
 
             <p className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
-            max-[744px]:text-[36px] max-[744px]:left-[54px]">
+            max-[744px]:text-[36px] max-[744px]:left-[54px]
+            max-[375px]:text-[30px]">
                 Learn More on the
                 <span className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[8px]
-                max-[744px]:text-[36px]">
-                    Embarcadero Blog
+                max-[744px]:text-[36px] max-[375px]:text-[30px]">
+                Embarcadero Blog
                 </span>
 
             </p>
@@ -23,7 +26,8 @@ const LearnMoreBlog = () => {
                  grid grid-cols-3 mt-[90px]
                  max-[1440px]:w-[1280px]  max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
                  max-[744px]:gap-[48px] max-[744px]:w-[100%]
-                 max-[744px]:grid-cols-2">
+                 max-[744px]:grid-cols-2
+                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px]">
 
                 <div className="LMB_c1 flex flex-col w-[466px] h-[188px] pl-[8px] gap-[16px]
                      max-[1440px]:gap-[16px]
@@ -52,6 +56,11 @@ const LearnMoreBlog = () => {
 
                 </div>
 
+                <div className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
+                    max-[1440px]:w-[1280px]
+                    max-[744px]:hidden
+                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"></div>
+
                 <div className="LMB_c2 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]
                     max-[1440px]:w-[405.33px] max-[1440px]:h-[243px] max-[1440px]:gap-[16px]
                     max-[744px]:w-[331px]">
@@ -78,6 +87,12 @@ const LearnMoreBlog = () => {
                     </div>
 
                 </div>
+
+                <div className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
+                    max-[1440px]:w-[1280px]
+                    max-[744px]:hidden
+                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"></div>
+
 
                 <div className="LMB_c3 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]
                     max-[1440px]:w-[405.33px] max-[1440px]:h-[243px] max-[1440px]:gap-[16px]
@@ -108,7 +123,8 @@ const LearnMoreBlog = () => {
                 
                 <div className="Sing_lLine col-span-3 border border-[#D4D4D4] border-dashed
                     max-[1440px]:w-[1280px]
-                    max-[744px]:hidden"></div>
+                    max-[744px]:hidden
+                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"></div>
 
 
 
@@ -135,6 +151,12 @@ const LearnMoreBlog = () => {
 
                 </div>
 
+                <div className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
+                    max-[1440px]:w-[1280px]
+                    max-[744px]:hidden
+                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"></div>
+
+
                 <div className="LMB_c2 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]
                     max-[1440px]:w-[405.33px] max-[1440px]:h-[282px] max-[1440px]:gap-[16px]
                     max-[744px]:w-[331px]">
@@ -157,6 +179,12 @@ const LearnMoreBlog = () => {
                     </div>
 
                 </div>
+
+                <div className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
+                    max-[1440px]:w-[1280px]
+                    max-[744px]:hidden
+                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"></div>
+
 
                 <div className="LMB_c3 flex flex-col w-[466px] h-[236px] pl-[8px] gap-[16px]
                     max-[1440px]:w-[405.33px] max-[1440px]:h-[286px] max-[1440px]:gap-[16px]

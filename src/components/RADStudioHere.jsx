@@ -14,23 +14,25 @@ const RADStudioHere = () => {
     return (
         <section className="rad-studio-here flex flex-col w-[1274px] h-[860px] gap-[80px] mt-[283px] m-auto
         max-[744px]:w-[696px] max-[744px]:gap-[48px]
-        max-[744px]:mt-[80px]">
+        max-[744px]:mt-[80px] max-[375px]:w-[343px] max-[375px]:gap-[48px]
+        max-[375px]:mt-[0px] max-[375px]:h-auto">
 
 
             <div className="RAD-Studio-Here-1 flex flex-col justify-center items-center w-[1274px] h- 
              [204px] gap-[24px] relative
-             max-[744px]:w-[696px] max-[744px]:gap-[16px]">
+             max-[744px]:w-[696px] max-[744px]:gap-[16px]
+             max-[375px]:w-[343px] max-[375px]:gap-[16px]">
 
                 <p className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent font-semibold
-                max-[744px]:text-[40px]">RAD Studio 11.2 
+                max-[744px]:text-[40px] max-[375px]:text-[32px]">RAD Studio 11.2 
                     <span className="font-archivo font-[600] text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
-                    max-[744px]:text-[40px]"> is here!</span>
+                    max-[744px]:text-[40px] max-[375px]:text-[32px]"> is here!</span>
                     
 
                 </p>
                 
                 <p className="pTag-2 font-archivo font-[400] text-[24px] leading-[150%] text-center text-[#525252] tracking-[-1px]
-                max-[744px]:text-[20px]">
+                max-[744px]:text-[20px] max-[375px]:text-[18px]">
                     RAD Studio 11.2 is here! The new release introduces Markdown support and an iOS Simulator on macOS ARM 64 for Delphi, and migrates the Delphi Linux debugger to LLDB. It also brings usability, performance and stability improvements to the IDE, the compilers and toolchains, the UX, RTL, database and Internet libraries for both Delphi and C++.
                 </p>
 
@@ -44,14 +46,17 @@ const RADStudioHere = () => {
 
             <div className="RAD-Studio-Here-1 flex flex-col items-center w-[1274px] h- 
              [576px] gap-[24px]
-             max-[744px]:w-[696px] max-[744px]:gap-[48px]">
+             max-[744px]:w-[696px] max-[744px]:gap-[48px]
+              max-[375px]:w-[343px]">
 
-                    <div className="rads-1-row1 grid grid-cols-3 w-[1274px]  gap-[32px]
+                <div className="rads-1-row1 grid grid-cols-3 w-[1274px]  gap-[32px]
                       max-[744px]:w-[696px] max-[744px]:grid max-[744px]:grid-cols-2
-                      max-[744px]:gap-[48px]">
+                      max-[744px]:gap-[48px]
+                      max-[375px]:grid-cols-1 max-[375px]:w-[343px]">
 
                         <div className="row1-1 flex flex-col w-[403.33px] h-[212px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={codeBase} alt="codeBase" className="w-[48px] h-[48px]"/>
                         <p className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -59,14 +64,15 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 Create apps for all major platforms with less coding effort. Write once, compile everywhere..
                             </p>
                             
                         </div>
 
                         <div className="row1-2 flex flex-col w-[403.33px] h-[242px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={productivity} alt="productivity" className="w-[48px] h-[48px]" />
                         <p className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -74,14 +80,15 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 VCL Styles with design-time support: Prototype stylish UIs even faster by seeing immediately at design-time how your styled forms and controls will look when running..
                             </p>
 
                         </div>
 
                         <div className="row1-3 flex flex-col w-[403.33px] h-[242px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={linux} alt="linux" className="w-[48px] h-[48px]" />
                         <p className="font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -89,14 +96,15 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 Develop both server and FireMonkey GUI applications for Linux. Delphi now has LLDB version 12 support for debugging on Linux, also adopted for iOS Simulator.
                             </p>
 
                         </div>
 
                         <div className="row2-1 flex flex-col w-[403.33px] h-[212px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={microsoft} alt="microsoft" className="w-[48px] h-[48px]" />
                         <p className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -104,13 +112,14 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 Modernize VCL apps for Windows 11 with up-to-date user interface controls, WinRT APIs, and HighDPI-related features
                             </p>
 
                         </div>
                         <div className="row2-2 flex flex-col w-[403.33px] h-[212px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={ue} alt="ue" className="w-[48px] h-[48px]" />
                         <p className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -118,13 +127,14 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 Completely rebuilt Welcome Page with a native look and feel, and a UI that fits the IDE, and customizable layout and content.
                             </p>
 
                         </div>
                         <div className="row2-3 flex flex-col w-[403.33px] h-[242px] gap-[24px] rounded-[24px]
-                        max-[744px]:w-[336px]">
+                        max-[744px]:w-[336px]
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]">
                             <img src={andriod} alt="andriod" className="w-[48px] h-[48px]" />
                         <p className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                             max-[744px]:text-[20px]">
@@ -132,7 +142,7 @@ const RADStudioHere = () => {
                             </p>
 
                         <p className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
-                            max-[744px]:text-[18px]">
+                            max-[744px]:text-[18px] max-[375px]:text-center">
                                 Support for the latest Android Level 32 API and latest Billing APIs, and migration to use the AndroidX libraries. Android support for multiple classes.
                             </p>
 
