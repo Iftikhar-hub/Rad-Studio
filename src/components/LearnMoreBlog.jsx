@@ -5,9 +5,9 @@ const LearnMoreBlog = () => {
     return (
 
         <section className="Learn_More_Blog w-[100%] h-[804px] mt-[128px] relative m-auto
-         max-[1440px]:max-w-[1280px] max-[1440px]:w-full max-[1440px]:h-[814px] max-[1440px]:gap-[80px]
-         max-[744px]:max-w-[695px] max-[744px]:w-full max-[744px]:gap-[64px]
-         max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:gap-[30px]
+         max-[1440px]:w-[1440px]  max-[1440px]:h-[814px] max-[1440px]:gap-[80px]
+         max-[744px]:w-[695px]  max-[744px]:gap-[64px]
+         max-[375px]:w-[343px]  max-[375px]:h-auto max-[375px]:gap-[30px]
          max-[375px]:mt-[80px]">
 
             <p className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
@@ -24,7 +24,7 @@ const LearnMoreBlog = () => {
 
             <div className="LMB_content_1 w-full max-w-[1462px] gap-[32px] mx-auto   
                  grid grid-cols-3 mt-[90px]
-                 max-[1440px]:w-[1280px]  max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
+                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
                  max-[744px]:gap-[48px] max-[744px]:w-[100%]
                  max-[744px]:grid-cols-2
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px]">

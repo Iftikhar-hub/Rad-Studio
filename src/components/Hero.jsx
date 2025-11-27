@@ -4,15 +4,21 @@ import rad from "../assets/icons/rad.png";
 
 const Hero = () => {
     return (
-        <section className="w-full flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]
-        max-[744px]:max-w-[744px] max-[744px]:w-full
-        max-[375px]:w-full max-[375px]:max-w-[375px] max-[375px]:overflow-x-hidden">
+        <section className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px] 
+        max-[1440px]:w-[1440px] 
+        max-[744px]:w-[744px]
+        max-[375px]:w-[375px] max-[375px]:overflow-x-hidden">
 
-            <div className="hero-container opacity-100 flex flex-col justify-center items-center w-  
-             [434px] h-[190px] gap-[24px]
-             max-[744px]:w-[434px] max-[375px]:w-[343px]">
 
-                <div className="hero-container-1 flex flex-col justify-center items-center w-[370px] h-[118px] gap-[16px]">
+            {/* <div className="heroElip absolute w-[869px] h-[869px] top-[535px] left-[1300px] rounded-full  bg-red ">
+            </div> */}
+
+            <div className="hero-container opacity-100 flex flex-col justify-center items-center 
+            max-w-[434px] w-full h-auto gap-[24px]
+             max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
+             max-[375px]:w-full">
+
+                <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
 
                     <p className="hero_cp1 font-archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)] 
                     bg-clip-text text-transparent
@@ -23,17 +29,17 @@ const Hero = () => {
 
                 </div>
 
-                <div className="hero-container-2 flex w-[434px] h-[8px] gap-[16px] justify-center
+                <div className="hero-container-2 flex w-full max-w-[434px] h-auto gap-[16px] justify-center
                 max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto ">
 
-                    <div className="bg-[#171717] btn-1 flex w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
+                    <div className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
                     max-[375px]:w-[343px] justify-center items-center">
-                        <button type="button" className="w-[141px] h-[24px] font-archivo font-medium text-[16px] leading-[24px] text-[#FFFFFF]">Start You Free Trial</button>
+                        <button type="button" className="w-full max-w-[141px] h-[24px] font-archivo font-medium text-[16px] leading-[24px] text-[#FFFFFF]">Start You Free Trial</button>
 
                     </div>
 
-                    <div className="btn-2 flex w-[229px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] justify-center items-center border border-[#171717] 
-                    max-[375px]:w-[343px] ">
+                    <div className="btn-2 flex w-full max-w-[229px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] justify-center items-center border border-[#171717] 
+                    max-[375px]:max-w-[343px] w-full ">
                         <button type="secondary" className="font-archivo font-medium text-[15px] leading-[24px] text-[#171717]">Request a Product Demo</button>
 
                     </div>
@@ -41,16 +47,16 @@ const Hero = () => {
 
             </div>
 
-            <div className="heroPicture w-[1274px] h-[712px] relative
-              max-[1440px]:w-[1279px] max-[1440px]:h-[886px] max-[1440px]:gap-[64px]
-              max-[744px]:w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
+            <div className="heroPicture w-full max-w-[1274px] h-[712px] relative
+              max-[1440px]:max-w-[1279px] max-[1440px]:w-full max-[1440px]:h-[886px] max-[1440px]:gap-[64px]
+              max-[744px]:max-w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
               max-[375px]:w-[343px]">
 
-                <img src={Group} alt="Group" className="gimage max-[1440px]:w-[1279px] max-[1440px]:h-[712px]
-                max-[744px]:w-[695px] max-[744px]:h-[389px]
-                 max-[375px]:w-[343px]  max-[375px]:h-[192px]" />
+                <img src={Group} alt="Group" className="gimage w-full max-[1440px]:max-w-[1279px] max-[1440px]:h-[712px]
+                max-[744px]:max-w-[695px] max-[744px]:h-[389px]
+                 max-[375px]:max-w-[343px]  max-[375px]:h-[192px]" />
 
-                <div className="bg-black absolute top-[0] w-[100%] h-[100%] rounded-[16px] flex  
+                <div className="bg-black absolute top-[0] w-full max-w-[100%] h-[100%] rounded-[16px] flex  
                  justify-center items-center bg-black/85
                  max-[1440px]:w-[1279px] max-[1440px]:h-[712px] max-[1440px]:top-[10px] max-[1440px] :left-[-10px] max-[1440px]:top-[0px] max-[1440px]:left-[0px]
                  max-[744px]:w-[695px] max-[744px]:h-[389px] max-[744px]:top-[0px] max-[744px]:left-[0px] max-[375px]:w-[343px]  max-[375px]:h-[192px] ">

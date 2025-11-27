@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <section className="headerTopp w-[100%]  bg-[#262626] text-white px-4 py-2
           max-[1440px]:w-[1440px]
-          max-[744px]:w-[100%]
+          max-[744px]:w-[744px]
           max-[375px]:w-[375px]">
             
             <div className="hd_t1 w-[100%] h-[56px] mx-auto flex justify-between items-center px-[80px]  
