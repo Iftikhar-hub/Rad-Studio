@@ -8,106 +8,134 @@ import wings from "../assets/icons/wings.png"
 
 const GetRADStudio = () => {
     return (
-
-        <section className="Get-RAD-Studio relative w-[100%] bg-[#00000005] opacity-100  backdrop-blur-[36px] overflow-hidden mt-[128px]
-        max-[1440px]:w-[1439px] max-[1440px]:h-[562px] max-[1440px]:mt-[256px]
-        max-[744px]:w-[744px] max-[768px]:mt-[400px]
-        max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:mt-[290px]">
-
-            <img className="left_vector w-[873px] h-[964px] absolute top-[3px] left-[-23px]
+      <section
+        className="Get-RAD-Studio relative w-[100%] bg-[#00000005] opacity-100  backdrop-blur-[36px] overflow-hidden mt-[128px]
+        max-[1440px]:max-w-[1439px] max-[1440px]:h-[562px] max-[1440px]:mt-[256px]
+        max-[744px]:max-w-[744px] max-[768px]:mt-[400px]
+        max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:mt-[290px]"
+      >
+        <img
+          className="left_vector w-full max-w-[873px] h-[964px] absolute top-[3px] left-[-23px]
             max-[1440px]:h-[722px]
             max-[744px]:h-[724px] max-[744px]:top-[-570px] max-[744px]:left-[-410px]
             max-[375px]:max-w-[873px] max-[375px]:w-full max-[375px]:h-[365px] max-[375px]:top-[-45px] max-[375px]:left-[-285px] max-[375px]:-rotate-90"
-                src={leftVector} alt="leftVector" />
+          src={leftVector}
+          alt="leftVector"
+        />
 
-            <img className="right-vector w-[811px] h-[897px] absolute bottom-[-7px] right-[-68px]
+        <img
+          className="right-vector w-full max-w-[811px] h-[897px] absolute bottom-[-7px] right-[-68px]
             max-[1440px]:h-[672px]
             max-[744px]:h-[673px] max-[744px]:bottom-[-100px] max-[744px]:right-[-450px]
 
             max-[375px]:max-w-[811px] max-[375px]:w-full max-[375px]:h-[339px] max-[375px]:top-[222px] max-[375px]:left-[237px] max-[375px]:rotate-90"
-            
-                src={rightVector} alt="rightVector" />
+          src={rightVector}
+          alt="rightVector"
+        />
 
-
-
-            <div className="GetRadContent absolute w-[100%] h-[302px] opacity-100 top-[128px]   
+        <div
+          className="GetRadContent absolute w-[100%] h-[302px] opacity-100 top-[128px]   
               gap-[48px] flex flex-col justify-center items-center
-              max-[1440px]:w-[598px] max-[1440px]:left-[426px]
+              max-[1440px]:max-w-[598px] max-[1440px]:left-[426px]
               max-[744px]:gap-[0px] max-[744px]:left-[94px] max-[744px]:top-[120px]
               max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto
-              max-[375px]:left-[16px] max-[375px]:top-[144px]">
-
-                <div className="GRC-logos w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 
+              max-[375px]:left-[16px] max-[375px]:top-[144px]"
+        >
+          <div
+            className="GRC-logos w-full max-w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 
                  max-[1440px]:w-[598px]
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto">
-
-                    <div className="RGC-l1 justify-center items-center h-[110px] opacity-100 flex flex-col gap-[16px]
-                    max-[1440px]:w-[598px]
-                    max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto">
-                        <p className="GRC-ps font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
+                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
+          >
+            <div
+              className="RGC-l1 justify-center items-center h-[110px] opacity-100 flex flex-col gap-[16px]
+                    max-[1440px]:max-w-[598px] max-[1440px]:w-full
+                    max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
+            >
+              <p
+                className="GRC-ps font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
                         max-[744px]:text-[40px]
-                        max-[375px]:text-[32px]">
-                            Get RAD
-                            <span className="RGC-ps1 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]
+                        max-[375px]:text-[32px]"
+              >
+                Get RAD
+                <span
+                  className="RGC-ps1 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]
                             max-[744px]:text-[40px]
-                            max-[375px]:text-[32px]">
-                                  Studio Now!
-                            </span>
-                        </p>
+                            max-[375px]:text-[32px]"
+                >
+                  Studio Now!
+                </span>
+              </p>
 
-                        <p className="GRS-p1 opacity-100 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] 
+              <p
+                className="GRS-p1 opacity-100 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] 
                         text-[#262626] text-center
-                        max-[744px]:text-[20px]">
-                            One code base, Native on any platform, Fast frame work.
-                        </p>
-                        
-                    </div>
-
-                    <div className="RGC-logo2 justify-center items-center h-[64px] flex flex-row gap-[32px]
-                    max-[375px]:w-[343px] max-[375px]:gap-[8px]">
-                        <img className="radsImage1 w-[64px] h-[64px] 
-                        max-[744px]:w-[56px] max-[744px]:h-[56px]
-                        max-[375px]:w-[48px] max-[375px]:h-[48px]" src={RADs} alt="RADs" />
-
-                        <img className="radsImage1 w-[64px] h-[64px]
-                        max-[744px]:w-[56px] max-[744px]:h-[56px]
-                        max-[375px]:w-[48px] max-[375px]:h-[48px]" src={rrr} alt="rrr" />
-
-                        <img className="radsImage1 w-[64px] h-[64px]
-                        max-[744px]:w-[56px] max-[744px]:h-[56px]
-                        max-[375px]:w-[48px] max-[375px]:h-[48px]" src={cplus} alt="cplus" />
-
-                        <img className="radsImage1 w-[64px] h-[64px]
-                        max-[744px]:w-[56px] max-[744px]:h-[56px]
-                        max-[375px]:w-[48px] max-[375px]:h-[48px]" src={shaheen} alt="shaheen" />
-
-                        <img className="radsImage1 w-[64px] h-[64px]
-                        max-[744px]:w-[56px] max-[744px]:h-[56px]
-                        max-[375px]:w-[48px] max-[375px]:h-[48px]" src={wings} alt="wings" />
-
-
-                    </div>
-
-                </div>
-
-                <div className="GRC-btns h-[48px] opacity-100 flex gap-[8px] rounded-[10px] 
-                px-[24px] py-[12px] bg-[#171717] mt-[48px]
-                max-[375px]:w-[343px] max-[375px]:justify-center max-[375px]:items-center">
-                    <button className="btn-download font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white" type="button">Download Now</button>
-
-                </div>
-
+                        max-[744px]:text-[20px]"
+              >
+                One code base, Native on any platform, Fast frame work.
+              </p>
             </div>
 
+            <div
+              className="RGC-logo2 justify-center items-center h-[64px] flex flex-row gap-[32px]
+                    max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:gap-[8px]"
+            >
+              <img
+                className="radsImage1 max-w-[64px] w-full h-[64px] 
+                        max-[744px]:max-w-[56px] max-[744px]:h-[56px]
+                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                src={RADs}
+                alt="RADs"
+              />
 
+              <img
+                className="radsImage1 w-full max-w-[64px] h-[64px]
+                        max-[744px]:max-w-[56px] max-[744px]:h-[56px]
+                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                src={rrr}
+                alt="rrr"
+              />
 
+              <img
+                className="radsImage1 w-full max-w-[64px] h-[64px]
+                        max-[744px]:max-w-[56px] max-[744px]:h-[56px]
+                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                src={cplus}
+                alt="cplus"
+              />
 
+              <img
+                className="radsImage1 w-full max-w-[64px] h-[64px]
+                        max-[744px]:max-w-[56px] max-[744px]:h-[56px]
+                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                src={shaheen}
+                alt="shaheen"
+              />
 
-        </section>
+              <img
+                className="radsImage1 w-full max-w-[64px] h-[64px]
+                        max-[744px]:max-w-[56px] max-[744px]:h-[56px]
+                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                src={wings}
+                alt="wings"
+              />
+            </div>
+          </div>
 
-
-
-    )
+          <div
+            className="GRC-btns h-[48px] opacity-100 flex gap-[8px] rounded-[10px] 
+                px-[24px] py-[12px] bg-[#171717] mt-[48px]
+                max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:justify-center max-[375px]:items-center"
+          >
+            <button
+              className="btn-download font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white"
+              type="button"
+            >
+              Download Now
+            </button>
+          </div>
+        </div>
+      </section>
+    );
 
 
 
