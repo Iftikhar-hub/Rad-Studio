@@ -10,13 +10,18 @@ const RADFooter = () => {
       <section
         className="RAD_Footer flex flex-col justify-between w-full h-[543px] py-[48px] px-[80px] bg-[#FFFFFF99]
         max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]
+
+        max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] overflow-x-hidden
+
         max-[375px]:max-w-[375px] max-[375px]:w-full"
       >
         <div
           className="Footer_Content flex flex-row justify-center w-[100%] h-[342px] gap-[32px]
             max-[1440px]:max-w-[1280px] max-[1440px]:flex-col max-[1440px]:h-auto max-[1440px]:gap-[24px]
-            max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]"
+            max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
+            max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]
+            "
         >
           <div
             className="Footer_Content_left flex flex-row gap-[16px]
@@ -32,7 +37,10 @@ const RADFooter = () => {
           <div
             className="Footer_Content_right flex justify-between gap-[70px]
                      max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
-                     max-[744px]:max-w-[695px] max-[744px]:grid max-[744px]:grid-cols-3
+
+
+                     max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-3
+
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
           >
             <div className="FCR_1 flex flex-col gap-[26px]">
@@ -188,7 +196,7 @@ const RADFooter = () => {
           className="Bottom_Footer w-[100%] h-[24px] flex justify-between items-center
                 max-[1440px]:max-w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]
                
-                max-[744px]:max-w-[695px]
+                max-[768px]:max-w-[718px]
                 max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col max-[375px]:gap-[16px]
                 max-[375px]:mt-[32px]"
         >
@@ -202,7 +210,7 @@ const RADFooter = () => {
           <dvi
             className="BF_Icons flex flex-row w-full max-w-[864px] justify-end h-[24px] gap-[24px]
                 max-[1440px]:max-w-[624px]
-                max-[744px]:max-w-[331px]
+                max-[768px]:max-w-[431px]
                 max-[375px]:max-w-[168px] max-[375px]:justify-between"
           >
             <img

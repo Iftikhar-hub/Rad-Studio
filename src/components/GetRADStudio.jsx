@@ -10,7 +10,9 @@ const GetRADStudio = () => {
     return (
       <section
         className="Get-RAD-Studio relative w-[100%] bg-[#00000005] opacity-100  backdrop-blur-[36px] overflow-hidden mt-[128px]
-        max-[1440px]:max-w-[1439px] max-[1440px]:h-[562px] max-[1440px]:mt-[256px]
+         max-[1440px]:h-[562px] max-[1440px]:mt-[256px]
+         
+        max-[1024px]:mt-[384px]
         max-[744px]:max-w-[744px] max-[768px]:mt-[400px]
         max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:mt-[290px]"
       >
@@ -36,10 +38,12 @@ const GetRADStudio = () => {
         <div
           className="GetRadContent absolute w-[100%] h-[302px] opacity-100 top-[128px]   
               gap-[48px] flex flex-col justify-center items-center
-              max-[1440px]:max-w-[598px] max-[1440px]:left-[426px]
-              max-[744px]:gap-[0px] max-[744px]:left-[94px] max-[744px]:top-[120px]
+              left-1/2 -translate-x-1/2
+
+              max-[1440px]:max-w-[598px] 
+              max-[744px]:gap-[0px] max-[744px]:top-[120px]
               max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto
-              max-[375px]:left-[16px] max-[375px]:top-[144px]"
+              max-[375px]:top-[144px]"
         >
           <div
             className="GRC-logos w-full max-w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 

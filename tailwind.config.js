@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         archivo: ['Archivo', 'sans-serif'],
       },
+      screens: {
+        '3xl': '1920px',   // NEW breakpoint
+      }
     },
   },
   plugins: [],

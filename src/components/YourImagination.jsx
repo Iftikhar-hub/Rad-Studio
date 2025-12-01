@@ -16,7 +16,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-full
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -28,14 +28,14 @@ const dataTab = [
         </div>
 
         <div
-          className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+          className="IContent flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -47,7 +47,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -142,8 +142,10 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-full
+
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
@@ -155,13 +157,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -173,7 +175,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -270,7 +272,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -283,13 +285,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -301,7 +303,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -391,7 +393,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -404,13 +406,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -422,7 +424,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -519,7 +521,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -532,13 +534,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -550,7 +552,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -641,7 +643,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -654,13 +656,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -673,7 +675,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -750,7 +752,7 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-[864px]
+                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -763,13 +765,13 @@ const dataTab = [
 
         <div
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
-                    max-[1440px]:max-w-[547px] max-[1440px]:h-[864px] max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
+                    max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]"
         >
           <div
-            className="Icontent-1 flex flex-col w-full max-w-[589px] h-[592px] gap-[29px]
-                        max-[1440px]:max-w-[483px] max-[1440px]:h-[664px] max-[1440px]:gap-[24px]
+            className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
+                        max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
@@ -781,7 +783,7 @@ const dataTab = [
             </p>
 
             <div
-              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-[484px] gap-[24px]
+              className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px]
                             max-[1440px]:gap-[24px]
                             max-[375px]:max-w-[295px] max-[375px]:h-auto"
             >
@@ -872,11 +874,17 @@ const YourImagination = () => {
   return (
     <section
       className="Your-Imagination flex flex-col w-full max-w-[1536px]
-         gap-[48px] m-auto
-         max-[1440px]:max-w-[1280px] max-[1440px]:h-[1075px] max-[1440px]:gap-[48px]
+         gap-[48px] ml-auto mr-auto mt-[128px]
+         max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[48px]
+
+         max-[768px]:max-w-[768px] max-[768px]:items-center 
+         
          max-[744px]:max-w-[744px] max-[1440px]:gap-[48px] max-[744px]:mt-[322px]
          max-[744px]:items-center
-         max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:mt-[80px]"
+         
+         max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]
+         max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:mt-[80px]
+         "
     >
       <div
         className="Imagination-pTag-span mt-[100px] m-auto
@@ -901,13 +909,22 @@ const YourImagination = () => {
       <div
         className="Imagination-Container flex flex-col items-center w-full max-w-[1536px] h-[845px]
               max-[1440px]:max-w-[1280px] max-[1440px]:h-[969px] max-[1440px]:gap-[32px]
+
+               max-[768px]:max-w-[718px]  max-[768px]:gap-[24px]
                max-[744px]:max-w-[696px]  max-[744px]:gap-[24px]
+
                max-[375px]:max-w-[343px] max-[375px]:h-auto"
       >
         <div
           className="ImaginationNav flex flex-row w-full h-f rounded-[16px] border border- 
                   [#E5E5E5] p-[8px] justify-between
                   max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
+
+                  max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden
+                   max-[768px]:max-w-[760px] max-[768px]:w-full
+                    max-[768px]:h-[60px]
+                    max-[768px]:justify-start max-[768px]:items-center
+                  max-[768px]:py-[35px]
 
                   max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center
                   max-[744px]:py-[35px]"
@@ -933,8 +950,13 @@ const YourImagination = () => {
         <div
           className="ImaginationHero flex justify-center items-center w-full max-w-[1536px] h-[740px]   
                   rounded-[16px] mt-[32px]
-                  max-[1440px]:max-w-[1280px] max-[1440px]:h-[864px] max-[1440px]:gap-[32px]
+                  max-[1440px]:max-w-[1280px] max-[1440px]:h-auto max-[1440px]:gap-[32px]
+
+
+                  max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-[768px]:justify-center max-[768px]:gap-[0px]
+
                   max-[744px]:max-w-[696px] max-[744px]:h-auto max-[744px]:flex-col max-[744px]:items-center max-[744px]:justify-center max-[744px]:gap-[0px]
+
                   max-[375px]:max-w-[343px]"
         >
           {currentTab?.content}

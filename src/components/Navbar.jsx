@@ -8,13 +8,17 @@ const Navbar = () => {
     <div
       className="contaner  w-[100%]
           max-[1440px]:max-w-[1440px]
+          max-[768px]:max-w-[768px]
           max-[744px]:max-w-[744px]
           max-[375px]:w-full max-[375px]:max-w-[375px]"
     >
       <section
         className="w-[100%] h-[70px] px-[196px] py-[16px] flex justify-between items-center
               max-[1440px]:max-w-[1440px] max-[1449px]:px-[80px]
+
+              max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
+
               max-[375px]:w-full max-[375px]:max-w-[375px]"
       >
         <div
@@ -27,9 +31,10 @@ const Navbar = () => {
 
         <div
           className="centerLinks flex gap-[15px] 
+          max-[1024px]:gap-[4px]
                  max-[1440px]:gap-[24px]
-                max-[744px]:hidden"
-         >
+                max-[768px]:hidden"
+        >
           <div className="Link-1 flex items-center justify-center ">
             <p>Products</p>
             <img
@@ -72,7 +77,7 @@ const Navbar = () => {
                   max-[1440px]:max-w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]
                   max-[744px]:max-w-[320px]  max-[744px]:items-center
                   max-[375px]:justify-end"
-         >
+        >
           <button
             className="btn w-full max-w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
                     max-[375px]:hidden"
@@ -97,7 +102,8 @@ const Navbar = () => {
           <img
             src={menaImage}
             alt="menaImage"
-            className="menueImage w-full max-w-[24px] h-[24px] min-[745px]:hidden"
+            className="menueImage w-full max-w-[24px] h-[24px] min-[745px]:hidden
+            max-[768px]:block"
           />
         </div>
       </section>
@@ -106,7 +112,12 @@ const Navbar = () => {
         className="navBottom w-[100%] mx-auto h-[53px] flex justify-between items-center  
               rounded-[6px] py-[16px] px-[192px]
               max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]
+              
+              
+              max-[768px]:max-w-[768px] max-[768px]:h-[90px] max-[768px]:px-[24px] max-[768px]:py-[16px] max-[768px]:flex-col max-[768px]:gap-[16px]
+
               max-[744px]:max-w-[744px] max-[744px]:h-[90px] max-[744px]:px-[24px] max-[744px]:py-[16px] max-[744px]:flex-col max-[744px]:gap-[16px]
+             
               max-[375px]:w-full max-[375px]:max-w-[375px] max-[375px]:flex-col "
       >
         <dvi className="navBottom-left flex items-center max-w-[228px] h-[21px] gap-[8px]">
