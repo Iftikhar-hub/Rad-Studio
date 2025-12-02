@@ -11,6 +11,9 @@ const LearnMoreBlog = () => {
          max-[768px]:max-w-[718px]  max-[768px]:gap-[64px]
          max-[744px]:max-w-[695px]  max-[744px]:gap-[64px]
 
+         max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]
+         max-[425px]:mt-[80px]
+
          max-[375px]:max-w-[343px]  max-[375px]:h-auto max-[375px]:gap-[30px]
          max-[375px]:mt-[80px]"
       >
@@ -18,12 +21,15 @@ const LearnMoreBlog = () => {
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
             max-[744px]:text-[36px] max-[744px]:left-[54px]
+            max-[425px]:text-[30px]
             max-[375px]:text-[30px]"
         >
           Learn More on the
           <span
             className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[8px]
-                max-[744px]:text-[36px] max-[375px]:text-[30px]"
+                max-[744px]:text-[36px] 
+                max-[425px]:text-[30px]
+                max-[375px]:text-[30px]"
           >
             Embarcadero Blog
           </span>
@@ -39,6 +45,9 @@ const LearnMoreBlog = () => {
 
                  max-[744px]:gap-[48px] max-[744px]:w-[100%]
                  max-[744px]:grid-cols-2
+
+
+                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
 
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px]"
         >
@@ -90,6 +99,7 @@ const LearnMoreBlog = () => {
                     max-[1440px]:max-w-[1280px]
                     max-[768px]:hidden
                     max-[744px]:hidden
+                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
                     max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
           ></div>
 
@@ -139,6 +149,7 @@ const LearnMoreBlog = () => {
                     max-[1440px]:max-w-[1280px]
                     max-[768px]:hidden
                     max-[744px]:hidden
+                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
                     max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
           ></div>
 
@@ -188,6 +199,7 @@ const LearnMoreBlog = () => {
                     max-[1440px]:max-w-[1280px]
                     max-[768px]:hidden
                     max-[744px]:hidden
+                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
                     max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
           ></div>
 
@@ -229,6 +241,7 @@ const LearnMoreBlog = () => {
                     max-[1440px]:max-w-[1280px]
                     max-[768px]:hidden
                     max-[744px]:hidden
+                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
                     max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
           ></div>
 
@@ -271,6 +284,7 @@ const LearnMoreBlog = () => {
                     max-[1440px]:max-w-[1280px]
                     max-[768px]:hidden
                     max-[744px]:hidden
+                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
                     max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
           ></div>
 

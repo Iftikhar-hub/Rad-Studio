@@ -14,6 +14,7 @@ const RADFooter = () => {
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] overflow-x-hidden
 
+        max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
       >
         <div
@@ -41,6 +42,7 @@ const RADFooter = () => {
 
                      max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-3
 
+                     max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
           >
             <div className="FCR_1 flex flex-col gap-[26px]">
@@ -197,6 +199,10 @@ const RADFooter = () => {
                 max-[1440px]:max-w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]
                
                 max-[768px]:max-w-[718px]
+
+                max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col max-[425px]:gap-[16px]
+                max-[425px]:mt-[32px]
+
                 max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col max-[375px]:gap-[16px]
                 max-[375px]:mt-[32px]"
         >
@@ -211,6 +217,7 @@ const RADFooter = () => {
             className="BF_Icons flex flex-row w-full max-w-[864px] justify-end h-[24px] gap-[24px]
                 max-[1440px]:max-w-[624px]
                 max-[768px]:max-w-[431px]
+                max-[425px]:max-w-[168px] max-[425px]:justify-between
                 max-[375px]:max-w-[168px] max-[375px]:justify-between"
           >
             <img

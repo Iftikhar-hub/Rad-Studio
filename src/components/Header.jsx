@@ -9,22 +9,26 @@ const Header = () => {
           max-[375px]:max-w-[375px]"
       >
         <div
-          className="hd_t1 w-[100%] h-[56px] mx-auto flex justify-between items-center px-[80px]  
+          className="hd_t1 w-[100%] mx-auto flex justify-between items-center px-[80px]  
                py-[16px]
                max-[1024px]:px-[0px]
-               max-[1440px]:w-[100%] max-[1440px]:h-[53px]
+               max-[1440px]:w-[100%]
                max-[744px]:w-[100%] max-[744px]:px-[24px]
-               max-[375px]:h-[114px] 
-               max-[375px]:flex-col max-[375px]:m-[0px] max-[375px]:p-[16px] max-[375px]:gap-[4px]"
+               
+               max-[425px]:flex-col max-[425px]:m-[0px] max-[425px]:p-[16px] max-[425px]:gap-[10px]
+               max-[375px]:flex-col max-[375px]:m-[0px] max-[375px]:p-[16px] max-[375px]:gap-[8px]"
         >
           <div
-            className="text-sm flex flex-row max-[375px]:max-w-[345px] max-[375px]:flex 
-                   max-[375px]:flex-col max-[375px]:items-center
+            className="text-sm flex flex-row
+
+             max-[425px]:max-w-[395px] max-[425px]:flex max-[425px]:flex-col max-[425px]:items-center
+            
+            max-[375px]:max-w-[345px] max-[375px]:flex max-[375px]:flex-col max-[375px]:items-center
                    "
           >
-            <p className="header_PS">
+            <p className="header_PS max-[375px]:text-[12px]">
               See what’s new in Delphi,
-              <span className="font-semibold ml-1">
+              <span className="font-semibold ml-1 max-[375px]:text-[12px]">
                 C++ Builder, and RAD Studio
               </span>
             </p>

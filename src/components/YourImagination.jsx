@@ -16,12 +16,17 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-full
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                    max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
+
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
-        >
+         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+            max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={IgnitPicture}
             alt="IgnitPicture"
           />
@@ -37,6 +42,7 @@ const dataTab = [
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
+                        max-[425px]:max-w-[295px] max-[345px]:h-auto
                         max-[375px]:max-w-[295px] max-[375px]:h-auto"
           >
             <p
@@ -142,14 +148,17 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-full
+                    max-[1440px]:max-w-[733px] 
 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
 
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+            max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={develop}
             alt="IgnitPicture"
           />
@@ -272,12 +281,16 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={debug}
             alt="debug"
           />
@@ -393,12 +406,16 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={deploy}
             alt="deploy"
           />
@@ -521,12 +538,16 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={extend}
             alt="extend"
           />
@@ -643,12 +664,16 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={colaboration}
             alt="colaboration"
           />
@@ -752,12 +777,16 @@ const dataTab = [
       <>
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
-                    max-[1440px]:max-w-[733px] max-[1440px]:h-auto
+                    max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+
+                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
           <img
-            className="IgnitPic max-w-[482px] h-[394px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+            className="IgnitPic max-w-[482px] h-[394px] 
+             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
+            max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
             src={coswQuility}
             alt="coswQuility"
           />
@@ -888,7 +917,7 @@ const YourImagination = () => {
     >
       <div
         className="Imagination-pTag-span mt-[100px] m-auto
-            max-[375px]:hidden"
+            max-[425px]:hidden"
       >
         <p
           className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626]
@@ -907,8 +936,8 @@ const YourImagination = () => {
       </div>
 
       <div
-        className="Imagination-Container flex flex-col items-center w-full max-w-[1536px] h-[845px]
-              max-[1440px]:max-w-[1280px] max-[1440px]:h-[969px] max-[1440px]:gap-[32px]
+        className="Imagination-Container flex flex-col items-center w-full max-w-[1536px]
+              max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
 
                max-[768px]:max-w-[718px]  max-[768px]:gap-[24px]
                max-[744px]:max-w-[696px]  max-[744px]:gap-[24px]
@@ -948,7 +977,7 @@ const YourImagination = () => {
         </div>
 
         <div
-          className="ImaginationHero flex justify-center items-center w-full max-w-[1536px] h-[740px]   
+          className="ImaginationHero flex justify-center items-center w-full max-w-[1536px]   
                   rounded-[16px] mt-[32px]
                   max-[1440px]:max-w-[1280px] max-[1440px]:h-auto max-[1440px]:gap-[32px]
 
@@ -956,6 +985,7 @@ const YourImagination = () => {
                   max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-[768px]:justify-center max-[768px]:gap-[0px]
 
                   max-[744px]:max-w-[696px] max-[744px]:h-auto max-[744px]:flex-col max-[744px]:items-center max-[744px]:justify-center max-[744px]:gap-[0px]
+                  max-[425px]:max-w-[393px]
 
                   max-[375px]:max-w-[343px]"
         >

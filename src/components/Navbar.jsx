@@ -22,7 +22,7 @@ const Navbar = () => {
               max-[375px]:w-full max-[375px]:max-w-[375px]"
       >
         <div
-          className="log flex items-center max-[1440px]:h-[24px] max-[1440px]:gap-[8px]
+          className="log cursor-pointer flex items-center max-[1440px]:h-[24px] max-[1440px]:gap-[8px]
                 
                 "
         >
@@ -35,7 +35,7 @@ const Navbar = () => {
                  max-[1440px]:gap-[24px]
                 max-[768px]:hidden"
         >
-          <div className="Link-1 flex items-center justify-center ">
+          <div className="Link-1 cursor-pointer flex items-center justify-center ">
             <p>Products</p>
             <img
               src={downArrow}
@@ -43,7 +43,7 @@ const Navbar = () => {
               className="downArrow max-w-[19px] h-[19px]"
             />
           </div>
-          <div className="Link-1 flex items-center justify-center max-[1440px]:max-w-[100px]">
+          <div className="Link-1 cursor-pointer flex items-center justify-center max-[1440px]:max-w-[100px]">
             <p className="FTpp w-full max-[1440px]:max-w-[90px]">Free Tools</p>
             <img
               src={downArrow}
@@ -51,10 +51,10 @@ const Navbar = () => {
               className="downArrow max-w-[19px] h-[19px]"
             />
           </div>
-          <div className="Link-1 flex items-center justify-center">
+          <div className="Link-1 cursor-pointer flex items-center justify-center">
             <p>Blog</p>
           </div>
-          <div className="Link-1 flex items-center justify-center">
+          <div className="Link-1 cursor-pointer flex items-center justify-center">
             <p>Resources</p>
             <img
               src={downArrow}
@@ -62,10 +62,10 @@ const Navbar = () => {
               className="downArrow max-w-[19px] h-[19px]"
             />
           </div>
-          <div className="Link-1 flex items-center justify-center">
+          <div className="Link-1 flex cursor-pointer items-center justify-center">
             <p>Getit</p>
           </div>
-          <div className="Link-1 flex  justify-center">
+          <div className="Link-1 flex cursor-pointer justify-center">
             <p className="ppppppp w-full max-[1440px]:max-w-[73px]">
               New Tools
             </p>
@@ -76,11 +76,13 @@ const Navbar = () => {
           className="w-full max-w-[280px] right-Buttons flex flex-row justify-between gap-[15px] 
                   max-[1440px]:max-w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]
                   max-[744px]:max-w-[320px]  max-[744px]:items-center
-                  max-[375px]:justify-end"
+                  max-[425px]:justify-end"
         >
           <button
             className="btn w-full max-w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
-                    max-[375px]:hidden"
+                    max-[425px]:hidden
+                    hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+                    hover:bg-clip-text hover:text-transparent"
             type="button"
           >
             Sign in
@@ -88,7 +90,11 @@ const Navbar = () => {
 
           <button
             type="button"
-            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] max-[375px]:hidden"
+            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] 
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+                    
+            hover:text-[white]
+            max-[425px]:hidden"
           >
             Buy now
           </button>
@@ -123,7 +129,10 @@ const Navbar = () => {
         <dvi className="navBottom-left flex items-center max-w-[228px] h-[21px] gap-[8px]">
           <a
             href="#"
-            className="flex items-center max-w-[39px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626]"
+            className="flex items-center max-w-[39px] h-[21px] gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626]
+            
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent"
           >
             Home
           </a>
@@ -135,7 +144,10 @@ const Navbar = () => {
           />
 
           <a
-            className="flex items-center max-w-[58px] h-[21px] gap-[10px] font-archivo font-medium text-[14px]  leading-[21px] tracking-[0px] text-[#262626]"
+            className="flex items-center max-w-[58px] h-[21px] gap-[10px] font-archivo font-medium text-[14px]  leading-[21px] tracking-[0px] text-[#262626]
+
+              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent"
             href="#"
           >
             Products
@@ -157,31 +169,41 @@ const Navbar = () => {
 
         <div
           className="navBottom-left flex items-center h-[21px] gap-[8px]
-                max-[375px]:grid max-[375px]:grid-cols-3 max-[375px]:w-[344px]"
+                max-[425px]:grid max-[425px]:grid-cols-3 max-[425px]:w-[344px]"
         >
           <a
-            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"
+            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
+            
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
           >
             What's New? -
           </a>
 
           <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"
+            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+            
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
           >
             Product Edition -
           </a>
 
           <a
-            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline"
+            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
           >
             Previous Version
           </a>
 
           <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[375px]:ml-[135px]"
+            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[425px]:ml-[135px]
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
           >
             Customers

@@ -7,11 +7,10 @@ const Hero = () => {
       <section
         className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px] 
          
-        max-[744px]:max-w-[744px]
+        max-[744px]:max-w-[744px] 
         max-[375px]:max-w-[375px] max-[375px]:overflow-x-hidden"
       >
-        {/* <div className="heroElip absolute w-[869px] h-[869px] top-[535px] left-[1300px] rounded-full  bg-red ">
-            </div> */}
+       
 
         <div
           className="hero-container opacity-100 flex flex-col justify-center items-center 
@@ -36,10 +35,13 @@ const Hero = () => {
 
           <div
             className="hero-container-2 flex w-full max-w-[434px] h-auto gap-[16px] justify-center
+            max-[425px]:flex-col max-[425px]:items-center max-[425px]:mt-auto
                 max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto "
           >
             <div
               className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
+
+              max-[425px]:max-w-[393px] 
                     max-[375px]:max-w-[343px] justify-center items-center"
             >
               <button
@@ -52,11 +54,16 @@ const Hero = () => {
 
             <div
               className="btn-2 flex w-full max-w-[229px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] justify-center items-center border border-[#171717] 
-                    max-[375px]:max-w-[343px] "
+              max-[425px]:max-w-[393px]
+                    max-[375px]:max-w-[343px]
+                     hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+                    
+            hover:text-[white] "
             >
               <button
                 type="secondary"
-                className="font-archivo font-medium text-[15px] leading-[24px] text-[#171717]"
+                className="font-archivo font-medium text-[15px] leading-[24px] text-[#171717]
+                 hover:text-[white] "
               >
                 Request a Product Demo
               </button>
@@ -72,6 +79,7 @@ const Hero = () => {
               max-[768px]:max-w-[718px]
 
               max-[744px]:max-w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
+              max-[425px]:max-w-[393px]
               max-[375px]:max-w-[343px]"
         >
           <img
@@ -81,6 +89,7 @@ const Hero = () => {
                 max-[1024px]:h-[470px]
                 max-[768px]:max-w-[718px]
                 max-[744px]:max-w-[695px] max-[744px]:h-[389px]
+                max-[425px]:max-w-[393px] max-[425px]:h-[192px]
                  max-[375px]:max-w-[343px]  max-[375px]:h-[192px]"
           />
 
@@ -91,30 +100,38 @@ const Hero = () => {
                  max-[1024px]:h-[470px]
                  max-[1440px]:left-[0px]
                  max-[768px]:max-w-[718px]
-                 max-[744px]:max-w-[695px] max-[744px]:h-[389px] max-[744px]:top-[0px] max-[744px]:left-[0px] max-[375px]:max-w-[343px]  max-[375px]:h-[192px] "
+                 max-[744px]:max-w-[695px] max-[744px]:h-[389px] max-[744px]:top-[0px] max-[744px]:left-[0px] 
+                  max-[425px]:max-w-[393px] max-[425px]:h-[192px]
+                 max-[375px]:max-w-[343px]  max-[375px]:h-[192px] "
           >
             <img
               src={playbutton}
               alt="playbutton"
               className="playButton max-[1440px]:max-w-[85px] max-[1440px]:h-[85px]
                     max-[744px]:max-w-[47px] max-[744px]:h-[47px]
+                    max-[425px]:max-w-[27px] max-[425px]:h-[27px]
                     max-[375px]:max-w-[23px] max-[375px]:h-[23px]"
             />
           </div>
 
           <div
-            className="heroLower w-[100%] h-[107px] rounded-[16px] border py-[24px] px-[32px]   
+            className="heroLower w-[100%]  rounded-[16px] border py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
                     max-[1440px]:max-w-[1279px]
-                    max-[744px]:max-w-[695px] max-[744px]:h-[107px] max-[744px]:gap-[32px]
-                    max-[375px]:max-w-[343px] max-[375px]:h-[222px] max-[375px]:flex-col
+                    max-[744px]:max-w-[695px]  max-[744px]:gap-[32px]
+
+                    max-[425px]:max-w-[393px]  max-[425px]:flex-col
+                    max-[425px]:p-[16px]
+                    
+                    max-[375px]:max-w-[343px]  max-[375px]:flex-col
                     max-[375px]:p-[16px]"
           >
             <div
-              className="logoLN flex flex-row justify-center items-center max-w-[1011px] h-  
-                     [59px] gap-4
-                     max-[744px]:max-w-[432px] max-[744px]:h-[59px] max-[744px]:gap-[16px]
+              className="logoLN flex flex-row justify-center items-center max-w-[1011px]  gap-4
+                     max-[744px]:max-w-[432px]  max-[744px]:gap-[16px]
                      max-[744px]:justify-start
+
+                     max-[425px]:flex-col max-[425px]:justify-center max-[425px]:mt-[18px]
                      max-[375px]:flex-col max-[375px]:justify-center max-[375px]:mt-[18px]"
             >
               <img src={rad} alt="rad" className="w-[48px] h-[48px]" />
@@ -130,7 +147,12 @@ const Hero = () => {
               </div>
             </div>
 
-            <div class="flex flex-row w-full max-w-[167px] h-[43px] rounded-[12px] justify-center items-center bg-[#262626] max-[375px]:max-w-[311px]">
+            <div
+              class="flex flex-row w-full max-w-[167px] h-[43px] rounded-[12px] justify-center items-center bg-[#262626]
+             max-[425px]:max-w-[311px]
+             max-[375px]:max-w-[311px]
+             "
+            >
               <button
                 className="w-[119px] h-[19px] font-archivo font-medium text-[16px] leading-[19.2px] tracking-normal text-[#FFFFFF]"
                 type="button"

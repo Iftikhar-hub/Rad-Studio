@@ -19,26 +19,34 @@ const RADStudioHere = () => {
         max-[1024px]:mt-auto
         max-[768px]:max-w-[718px]
         max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
-        max-[744px]:mt-[80px] max-[375px]:max-w-[343px] max-[375px]:gap-[48px]
-        max-[375px]:mt-[0px] max-[375px]:h-auto"
+        max-[744px]:mt-[80px]
+        
+        max-[425px]:max-w-[393px] max-[425px]:gap-[48px] max-[425px]:mt-[0px] 
+        max-[375px]:max-w-[343px] max-[375px]:gap-[48px] max-[375px]:mt-[0px] "
       >
         <div
           className="RAD-Studio-Here-1 flex flex-col justify-center items-center w-full max-w-[1274px] h- 
              [204px] gap-[24px] relative
              max-[1024px]:max-w-[863px]
              max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
+
              max-[375px]:max-w-[343px] max-[375px]:gap-[16px]"
         >
           <p
             className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
             max-[1024px]:text-[42px]
-                max-[744px]:text-[40px] max-[375px]:text-[32px]"
+                max-[744px]:text-[40px] 
+                
+                max-[425px]:text-[32px]
+                max-[375px]:text-[32px]"
           >
             RAD Studio 11.2
             <span
               className="font-archivo font-[600] text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
               max-[1024px]:text-[42px]
-                    max-[744px]:text-[40px] max-[375px]:text-[32px]"
+                    max-[744px]:text-[40px]
+                    max-[425px]:text-[32px]
+                    max-[375px]:text-[32px]"
             >
               {" "}
               is here!
