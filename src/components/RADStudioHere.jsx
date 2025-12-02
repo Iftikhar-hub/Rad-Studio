@@ -96,7 +96,8 @@ const RADStudioHere = () => {
             <div
               className="row1-1 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img
                 src={codeBase}
@@ -124,7 +125,8 @@ const RADStudioHere = () => {
             <div
               className="row1-2 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img
                 src={productivity}
@@ -153,7 +155,8 @@ const RADStudioHere = () => {
             <div
               className="row1-3 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img src={linux} alt="linux" className="max-w-[48px] h-[48px]" />
               <p
@@ -178,7 +181,8 @@ const RADStudioHere = () => {
             <div
               className="row2-1 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img
                 src={microsoft}
@@ -205,7 +209,8 @@ const RADStudioHere = () => {
             <div
               className="row2-2 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img src={ue} alt="ue" className="max-w-[48px] h-[48px]" />
               <p
@@ -228,7 +233,8 @@ const RADStudioHere = () => {
             <div
               className="row2-3 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
-                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]"
+                        max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
+                        cursor-pointer"
             >
               <img
                 src={andriod}
@@ -255,7 +261,10 @@ const RADStudioHere = () => {
             </div>
           </div>
 
-          <div className="rads-2 flex flex-row max-w-[88px] h-[36px] gap-[16px]">
+          <div
+            className="rads-2 flex flex-row max-w-[88px] h-[36px] gap-[16px]
+          cursor-pointer"
+          >
             <img
               src={previous}
               alt="previous"

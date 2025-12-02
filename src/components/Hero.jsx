@@ -10,8 +10,6 @@ const Hero = () => {
         max-[744px]:max-w-[744px] 
         max-[375px]:max-w-[375px] max-[375px]:overflow-x-hidden"
       >
-       
-
         <div
           className="hero-container opacity-100 flex flex-col justify-center items-center 
              max-w-[434px] w-full h-auto gap-[24px]
@@ -42,7 +40,8 @@ const Hero = () => {
               className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
 
               max-[425px]:max-w-[393px] 
-                    max-[375px]:max-w-[343px] justify-center items-center"
+                    max-[375px]:max-w-[343px] justify-center items-center
+                    hover:bg-[#565454]"
             >
               <button
                 type="button"
@@ -150,7 +149,7 @@ const Hero = () => {
             <div
               class="flex flex-row w-full max-w-[167px] h-[43px] rounded-[12px] justify-center items-center bg-[#262626]
              max-[425px]:max-w-[311px]
-             max-[375px]:max-w-[311px]
+             max-[375px]:max-w-[311px] hover:bg-[#565454]
              "
             >
               <button

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 
 import cloud from "../assets/icons/cloud.png";
 import IgnitPicture from "../assets/icons/IgnitPicture.png";
@@ -17,12 +19,13 @@ const dataTab = [
         <div
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
                     max-[1440px]:max-w-[733px] 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
                     max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
 
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
-         >
+        >
           <img
             className="IgnitPic max-w-[482px] h-[394px] 
             max-[425px]:max-w-[297px] max-[425px]:h-[238px]
@@ -36,14 +39,18 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
                         max-[425px]:max-w-[295px] max-[345px]:h-auto
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -110,7 +117,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -120,8 +127,9 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
-                        max-[375px]:items-center"
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:items-center
+                        cursor-pointer"
           >
             <p
               className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
@@ -150,6 +158,8 @@ const dataTab = [
           className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] p-[48px] bg-[#CECECE33]
                     max-[1440px]:max-w-[733px] 
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
 
@@ -168,7 +178,9 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
@@ -178,6 +190,8 @@ const dataTab = [
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
+
+              max-[1024px]:max-w-[900px]
                             max-[744px]:text-[24px] max-[375px]:text-[24px]"
             >
               Code Faster and Smarter with Delphi
@@ -243,7 +257,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -253,11 +267,11 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
                         max-[375px]:items-center"
           >
             <p
-              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
+              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] cursor-pointer
                             
                            "
             >
@@ -284,6 +298,8 @@ const dataTab = [
                     max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -300,13 +316,17 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -368,7 +388,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -378,11 +398,11 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
                         max-[375px]:items-center"
           >
             <p
-              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
+              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] cursor-pointer
                             
                            "
             >
@@ -409,6 +429,8 @@ const dataTab = [
                     max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -425,13 +447,15 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -500,7 +524,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -510,11 +534,11 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
-                        max-[375px]:items-center"
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:items-center cursor-pointer"
           >
             <p
-              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
+              className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] 
                             
                            "
             >
@@ -541,6 +565,8 @@ const dataTab = [
                     max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -557,13 +583,15 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -626,7 +654,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -636,8 +664,8 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
-                        max-[375px]:items-center"
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:items-center cursor-pointer"
           >
             <p
               className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
@@ -667,6 +695,8 @@ const dataTab = [
                     max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -683,13 +713,15 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -739,7 +771,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -749,8 +781,8 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
-                        max-[375px]:items-center"
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:items-center cursor-pointer"
           >
             <p
               className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
@@ -780,6 +812,8 @@ const dataTab = [
                     max-[1440px]:max-w-[733px] 
                     max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
 
+                    max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                      max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                     max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
         >
@@ -796,13 +830,15 @@ const dataTab = [
           className="IContent flex flex-col w-full max-w-[653px] h-[740px] p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px]
+                    max-[1024px]:max-w-[1024px]"
         >
           <div
             className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px]
                         max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                         max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
-                        max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                        max-[375px]:max-w-[295px] max-[375px]:h-auto
+                        max-[1024px]:max-w-[900px]"
           >
             <p
               className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717]
@@ -863,7 +899,7 @@ const dataTab = [
 
               <p
                 className="ipReadMore opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
-                                max-[375px]:text-end"
+                                max-[375px]:text-end cursor-pointer"
               >
                 Read More
               </p>
@@ -873,8 +909,8 @@ const dataTab = [
           <div
             className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px]
                         max-[744px]:ml-[21px]
-                        max-[375px]:w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
-                        max-[375px]:items-center"
+                        max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px]
+                        max-[375px]:items-center cursor-pointer"
           >
             <p
               className="DownloadRAD  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626]
@@ -906,9 +942,11 @@ const YourImagination = () => {
          gap-[48px] ml-auto mr-auto mt-[128px]
          max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[48px]
 
+        max-[1024px]:max-w-[1024px]
+
          max-[768px]:max-w-[768px] max-[768px]:items-center 
          
-         max-[744px]:max-w-[744px] max-[1440px]:gap-[48px] max-[744px]:mt-[322px]
+         max-[744px]:max-w-[744px] max-[744px]:gap-[48px] max-[744px]:mt-[322px]
          max-[744px]:items-center
          
          max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]
@@ -949,6 +987,12 @@ const YourImagination = () => {
                   [#E5E5E5] p-[8px] justify-between
                   max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
 
+                   max-[1024px]:overflow-x-scroll max-[1024px]:overflow-y-hidden
+                   max-[1024px]:max-w-[900px] max-[1024px]:w-full
+                    max-[1024px]:h-[60px]
+                    max-[1024px]:justify-start max-[1024px]:items-center
+                 
+
                   max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden
                    max-[768px]:max-w-[760px] max-[768px]:w-full
                     max-[768px]:h-[60px]
@@ -965,6 +1009,7 @@ const YourImagination = () => {
               className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center
                     max-[1440px]:max-w-[180px] max-[1440px]:h-[57px]
                     max-[744px]:max-w-[107px] max-[744px]:h-[52px] max-[744px]:text-[20px] 
+                    hover:bg-[#dedbdb] hover:text-[black]
               ${
                 activeTab === tab.name
                   ? "bg-[#262626] text-white"
@@ -976,21 +1021,28 @@ const YourImagination = () => {
           ))}
         </div>
 
-        <div
-          className="ImaginationHero flex justify-center items-center w-full max-w-[1536px]   
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab} // tab change par animation trigger
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            className="ImaginationHero flex justify-center items-center w-full max-w-[1536px]   
                   rounded-[16px] mt-[32px]
                   max-[1440px]:max-w-[1280px] max-[1440px]:h-auto max-[1440px]:gap-[32px]
 
-
+                 max-[1024px]:flex-col max-[1024px]:max-w-[974px]
                   max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-[768px]:justify-center max-[768px]:gap-[0px]
 
                   max-[744px]:max-w-[696px] max-[744px]:h-auto max-[744px]:flex-col max-[744px]:items-center max-[744px]:justify-center max-[744px]:gap-[0px]
                   max-[425px]:max-w-[393px]
 
                   max-[375px]:max-w-[343px]"
-        >
-          {currentTab?.content}
-        </div>
+          >
+            {currentTab?.content}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </section>
   );

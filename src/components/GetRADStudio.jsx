@@ -159,7 +159,7 @@ const GetRADStudio = () => {
           <div
             className="GRC-btns h-[48px] opacity-100 flex gap-[8px] rounded-[10px] 
                 px-[24px] py-[12px] bg-[#171717] mt-[48px]
-                max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:justify-center max-[375px]:items-center"
+                max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:justify-center max-[375px]:items-center hover:bg-[#565454]"
           >
             <button
               className="btn-download font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white"

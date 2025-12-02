@@ -93,7 +93,7 @@ const JoinOurCoummunity = () => {
               className="Btn_Subs w-full max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-figtree font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
                     max-[1440px]:max-w-[122px] max-[1440px]:h-[48px]
                     max-[425px]:max-w-[393px]
-                    max-[375px]:max-w-[343px]"
+                    max-[375px]:max-w-[343px] hover:bg-[#565454]"
               type="button"
             >
               Subscribe

@@ -4,14 +4,14 @@ const Header = () => {
     return (
       <section
         className="headerTopp w-[100%]  bg-[#262626] text-white px-4 py-2
-          max-[1440px]:max-w-[1440px]
+          max-[1440px]:max-w-[1440px] 
           max-[744px]:max-w-[744px]
           max-[375px]:max-w-[375px]"
       >
         <div
           className="hd_t1 w-[100%] mx-auto flex justify-between items-center px-[80px]  
                py-[16px]
-               max-[1024px]:px-[0px]
+               max-[1440px]:flex-col max-[1440px]:gap-[8px]
                max-[1440px]:w-[100%]
                max-[744px]:w-[100%] max-[744px]:px-[24px]
                

@@ -33,7 +33,7 @@ const Navbar = () => {
           className="centerLinks flex gap-[15px] 
           max-[1024px]:gap-[4px]
                  max-[1440px]:gap-[24px]
-                max-[768px]:hidden"
+                max-[1200px]:hidden"
         >
           <div className="Link-1 cursor-pointer flex items-center justify-center ">
             <p>Products</p>
@@ -75,6 +75,11 @@ const Navbar = () => {
         <div
           className="w-full max-w-[280px] right-Buttons flex flex-row justify-between gap-[15px] 
                   max-[1440px]:max-w-[280px] max-[1440px]:h-[38px] max-[1440px]:gap-[12px]
+
+                  max-[1200px]:max-w-[350px]  max-[1200px]:items-center
+                  max-[1200px]:justify-end
+
+                  
                   max-[744px]:max-w-[320px]  max-[744px]:items-center
                   max-[425px]:justify-end"
         >
@@ -101,15 +106,18 @@ const Navbar = () => {
 
           <button
             type="button"
-            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] bg-[#262626] flex items-center justify-center gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-white"
+            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] bg-[#262626] flex items-center justify-center gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-white
+            
+            hover:bg-[#565454]"
           >
             Free trial
           </button>
           <img
             src={menaImage}
             alt="menaImage"
-            className="menueImage w-full max-w-[24px] h-[24px] min-[745px]:hidden
-            max-[768px]:block"
+            className="menueImage w-full max-w-[24px] h-[24px] hidden
+            max-[1200px]:block
+            "
           />
         </div>
       </section>

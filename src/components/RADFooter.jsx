@@ -26,7 +26,7 @@ const RADFooter = () => {
         >
           <div
             className="Footer_Content_left flex flex-row gap-[16px]
-                max-[1440px]:max-w-[202px] max-[1440px]:h-[35px]"
+                max-[1440px]:max-w-[202px] max-[1440px]:h-[35px] cursor-pointer"
           >
             <img
               className="FC_log max-w-[202px] h-[35px]"
@@ -50,19 +50,19 @@ const RADFooter = () => {
                 Products
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 RAD STUDIO™
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 DELPHI®
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 C++BUILDER®
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer ">
                 INTERBASE®
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 RAD SERVER™
               </p>
             </div>
@@ -75,25 +75,25 @@ const RADFooter = () => {
                 Free Tools
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 C++ Compiler
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 C++Builder Community ED
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 DELPHI Community ED
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 REST Debugger
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 INTERBASE Developer Edition
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 FMX STENCILS
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 DEV-C++
               </p>
             </div>
@@ -106,28 +106,28 @@ const RADFooter = () => {
                 Resources
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Events and Webinars
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 White Papers
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Success Strories
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer ">
                 For Educators
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Partners
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Certifications
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 MVP Program
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 WEB APP Development
               </p>
             </div>
@@ -140,7 +140,7 @@ const RADFooter = () => {
                 Community
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Blogs
               </p>
             </div>
@@ -153,22 +153,22 @@ const RADFooter = () => {
                 Compnay
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 About us
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Contact us
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Contact sales
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Legal
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Privacy Policy
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 Logo
               </p>
             </div>
@@ -181,13 +181,13 @@ const RADFooter = () => {
                 Get in Touch
               </p>
 
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 US: 1 (512) 226-8080
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] ">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
                 DE: +49 (0)6103-3866-100
               </p>
-              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] max-[375px]:text-[15px]">
+              <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] max-[375px]:text-[15px] cursor-pointer">
                 info@embarcadero.com
               </p>
             </div>
@@ -221,22 +221,22 @@ const RADFooter = () => {
                 max-[375px]:max-w-[168px] max-[375px]:justify-between"
           >
             <img
-              className="logoBF max-w-[24px] h-[24px]"
+              className="logoBF max-w-[24px] h-[24px] cursor-pointer"
               src={logoTwitter}
               alt="logoTwitter"
             />
             <img
-              className="logoBF max-w-[24px] h-[24px]"
+              className="logoBF max-w-[24px] h-[24px] cursor-pointer"
               src={logoFacebook}
               alt="logoFacebook"
             />
             <img
-              className="logoBF max-w-[24px] h-[24px]"
+              className="logoBF max-w-[24px] h-[24px] cursor-pointer"
               src={logoDribbble}
               alt="logoDribbble"
             />
             <img
-              className="logoBF max-w-[24px] h-[24px]"
+              className="logoBF max-w-[24px] h-[24px] cursor-pointer"
               src={logoGithub}
               alt="logoGithub"
             />
