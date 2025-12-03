@@ -41,7 +41,7 @@ const LearnMoreBlog = () => {
                  max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2
+                 max-[768px]:grid-cols-2 max-[744px]:mt-[64px]
 
                  max-[744px]:gap-[48px] max-[744px]:w-[100%]
                  max-[744px]:grid-cols-2
@@ -344,6 +344,9 @@ const LearnMoreBlog = () => {
           src={MLB_Arrow}
           alt="MLB_Arrow"
         />
+
+        <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[268px]  left-[-253px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4]"></div>
+        <div className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-400px]  right-[0] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]"></div>
       </section>
     );
 }

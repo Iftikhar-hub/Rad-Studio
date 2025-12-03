@@ -8,7 +8,7 @@ import logoGithub from "../assets/icons/logoGithub.png"
 const RADFooter = () => {
     return (
       <section
-        className="RAD_Footer flex flex-col justify-between w-full h-[543px] py-[48px] px-[80px] bg-[#FFFFFF99]
+        className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]
         max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
@@ -207,15 +207,16 @@ const RADFooter = () => {
                 max-[375px]:mt-[32px]"
         >
           <p
-            className="BF_P font-[Archivo] font-normal text-[14px] leading-[14px] text-[#1F2937]
+            className="BF_P font-[Archivo] ml-[32px] font-normal text-[14px] leading-[14px] text-[#1F2937]
+            max-[1440px]:ml-[0]
                 max-[375px]:hidden"
           >
             2022 Embarcadero Inc. All Rights Reserved
           </p>
 
           <dvi
-            className="BF_Icons flex flex-row w-full max-w-[864px] justify-end h-[24px] gap-[24px]
-                max-[1440px]:max-w-[624px]
+            className="BF_Icons flex flex-row w-full mr-[32px] max-w-[864px] justify-end h-[24px] gap-[24px]
+                max-[1440px]:max-w-[624px] max-[1440px]:mr-[0]
                 max-[768px]:max-w-[431px]
                 max-[425px]:max-w-[168px] max-[425px]:justify-between
                 max-[375px]:max-w-[168px] max-[375px]:justify-between"
@@ -248,6 +249,8 @@ const RADFooter = () => {
             2022 Embarcadero Inc. All Rights Reserved
           </p>
         </div>
+
+        <div className="elip-10 w-full max-w-[650px] h-[650px]  absolute bottom-[0]  right-[0] opacity-[10%] border border-white blur-[400px]  bg-[#DC2626]"></div>
       </section>
     );
 

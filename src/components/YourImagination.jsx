@@ -36,7 +36,7 @@ const dataTab = [
         </div>
 
         <div
-          className="IContent flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px]
+          className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px]
                     max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px] max-[1440px]:px-[32px]
                     max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
                     max-[375px]:max-w-[343px]
@@ -145,6 +145,8 @@ const dataTab = [
               alt="cloud"
             />
           </div>
+
+          <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[100px] absolute top-[0]"></div>
         </div>
       </>
     ),
@@ -946,7 +948,7 @@ const YourImagination = () => {
 
          max-[768px]:max-w-[768px] max-[768px]:items-center 
          
-         max-[744px]:max-w-[744px] max-[744px]:gap-[48px] max-[744px]:mt-[322px]
+         max-[744px]:max-w-[744px] max-[744px]:gap-[48px] max-[744px]:mt-[80px]
          max-[744px]:items-center
          
          max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]

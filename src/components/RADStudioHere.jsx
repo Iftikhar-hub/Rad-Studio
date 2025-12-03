@@ -13,8 +13,8 @@ import radsImage from "../assets/icons/radsImage.png";
 const RADStudioHere = () => {
     return (
       <section
-        className="rad-studio-here flex flex-col w-[100%] gap-[80px] mt-[283px] m-auto max-
-        items-center
+        className="rad-studio-here relative flex flex-col w-[100%] gap-[80px] mt-[283px] m-auto max-
+        items-center overflow-x-clip
         [1440px]:max-w-[1280px] max-[1440px]:mt-[128px]
         max-[1024px]:mt-auto
         max-[768px]:max-w-[718px]
@@ -83,7 +83,7 @@ const RADStudioHere = () => {
               max-[375px]:max-w-[343px]"
         >
           <div
-            className="rads-1-row1 grid grid-cols-3 w-full max-w-[1274px]  gap-[32px]
+            className="rads-1-row1 grid  relative grid-cols-3 w-full max-w-[1274px]  gap-[32px]
 
                       max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-2
                       max-[768px]:gap-[48px]
@@ -272,6 +272,10 @@ const RADStudioHere = () => {
             />
             <img src={next} alt="next" />
           </div>
+
+          <div className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px]"></div>
+
+          <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[283px]  left-[1552px] opacity-[10%] border border-white bg-[#6366F1] blur-[100px] "></div>
         </div>
       </section>
     );

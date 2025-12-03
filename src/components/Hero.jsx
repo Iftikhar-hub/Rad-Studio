@@ -5,14 +5,14 @@ import rad from "../assets/icons/rad.png";
 const Hero = () => {
     return (
       <section
-        className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px] 
+        className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip
          
         max-[744px]:max-w-[744px] 
         max-[375px]:max-w-[375px] max-[375px]:overflow-x-hidden"
       >
         <div
           className="hero-container opacity-100 flex flex-col justify-center items-center 
-             max-w-[434px] w-full h-auto gap-[24px]
+             max-w-[434px] w-full h-auto gap-[24px]  z-10
              max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
         >
@@ -72,7 +72,7 @@ const Hero = () => {
 
         <div
           className="heroPicture w-full max-w-[1274px] h-[712px] relative
-            max-[1024px]:max-w-[864px]
+            max-[1024px]:max-w-[864px] z-10
               max-[1440px]:max-w-[1260px] max-[1440px]:w-full max-[1440px]:h-[886px] max-[1440px]:gap-[64px]
 
               max-[768px]:max-w-[718px]
@@ -161,6 +161,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
+        <div className="w-full max-w-[440px] h-[440px]  absolute top-[0]  left-[-128px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]"></div>
+
+        <div className="w-full max-w-[869px] h-[869px]  absolute top-[0]  left-[1300px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48]"></div>
       </section>
     );
 }

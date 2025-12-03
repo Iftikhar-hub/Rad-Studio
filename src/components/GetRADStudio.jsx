@@ -20,7 +20,7 @@ const GetRADStudio = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full"
       >
         <img
-          className="left_vector w-full max-w-[873px] h-[964px] absolute top-[3px] left-[-23px]
+          className="left_vector w-full max-w-[873px] h-[700px] absolute top-[-60px] left-[-400px] -rotate-90
             max-[1440px]:h-[722px]
             max-[744px]:h-[724px] max-[744px]:top-[-570px] max-[744px]:left-[-410px]
  
@@ -33,7 +33,7 @@ const GetRADStudio = () => {
         />
 
         <img
-          className="right-vector w-full max-w-[811px] h-[897px] absolute bottom-[-7px] right-[-68px]
+          className="right-vector w-full max-w-[811px] h-[897px] absolute bottom-[-7px] right-[-354px]
             max-[1440px]:h-[672px]
             max-[744px]:h-[673px] max-[744px]:bottom-[-100px] max-[744px]:right-[-450px]
 
@@ -169,6 +169,10 @@ const GetRADStudio = () => {
             </button>
           </div>
         </div>
+
+        <div className="elip-6 w-full max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
+
+        <div className="elip-7 w-full max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
       </section>
     );
 

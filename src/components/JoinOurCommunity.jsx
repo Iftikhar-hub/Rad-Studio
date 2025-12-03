@@ -3,7 +3,7 @@ import GlobalUsers from "../assets/icons/GlobalUsers.png";
 const JoinOurCoummunity = () => {
     return (
       <section
-        className="Join_Our_Community flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] 
+        className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] 
          max-[1440px]:h-[640px]
          max-[1024px]:max-w-[864px]
 
@@ -118,6 +118,8 @@ const JoinOurCoummunity = () => {
             alt="GlobalUsers"
           />
         </div>
+
+        <div className="elip-10 w-full max-w-[869px] h-[100%]  absolute top-[286px]  left-[-197px] opacity-[10%] border border-white blur-[400px]  bg-[#E11D48]"></div>
       </section>
     );
 
