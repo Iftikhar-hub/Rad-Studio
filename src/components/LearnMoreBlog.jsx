@@ -36,8 +36,8 @@ const LearnMoreBlog = () => {
         </p>
 
         <div
-          className="LMB_content_1 w-full max-w-[1462px] gap-[32px] mx-auto   
-                 grid grid-cols-3 mt-[90px]
+          className="LMB_content_1 w-full max-w-[1462px] gap-[32px] mx-auto z-10  
+                 grid grid-cols-3 mt-[90px] 
                  max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
@@ -53,7 +53,7 @@ const LearnMoreBlog = () => {
         >
           <div
             className="LMB_c1 flex flex-col w-full max-w-[466px] h-[188px] pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px]
+                     max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
                      max-[744px]:max-w-[331px] "
@@ -148,7 +148,7 @@ const LearnMoreBlog = () => {
 
           <div
             className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px]
+                    max-[1440px]:max-w-[1280px] z-10
                     max-[768px]:hidden
                     max-[744px]:hidden
                     max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
@@ -158,7 +158,7 @@ const LearnMoreBlog = () => {
           <div
             className="LMB_c3 flex flex-col w-full max-w-[466px] h-[236px] pl-[8px] gap-[16px]
                     max-[1440px]:max-w-[405.33px] max-[1440px]:h-[243px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px]"
+                    max-[744px]:max-w-[331px] z-10"
           >
             <p
               className="LMB_c1_p1  font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -209,7 +209,7 @@ const LearnMoreBlog = () => {
           <div
             className="LMB_c1 flex flex-col w-full max-w-[466px] h-[188px] pl-[8px] gap-[16px]
                     max-[1440px]:max-w-[405.33px] max-[1440px]:h-[234px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px]"
+                    max-[744px]:max-w-[331px] z-10"
           >
             <p
               className="LMB_c1_p1  font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]

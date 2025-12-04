@@ -1,5 +1,5 @@
-import leftVector from "../assets/icons/leftVector.png"
-import rightVector from "../assets/icons/rightVector.png"
+import leftVector from "../assets/icons/leftVector.png";
+import rightVector from "../assets/icons/rightVector.png";
 import RADs from "../assets/icons/RADs.png"
 import rrr from "../assets/icons/rrr.png"
 import cplus from "../assets/icons/cplus.png"
@@ -20,9 +20,10 @@ const GetRADStudio = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full"
       >
         <img
-          className="left_vector w-full max-w-[873px] h-[700px] absolute top-[-60px] left-[-400px] -rotate-90
+          className="left_vector w-full max-w-[873px] h-[810px] absolute top-[-20] left-[-520px] 
             max-[1440px]:h-[722px]
-            max-[744px]:h-[724px] max-[744px]:top-[-570px] max-[744px]:left-[-410px]
+
+          max-[744px]:max-w-[843px]  max-[744px]:h-[724px] max-[744px]:top-[-26px] max-[744px]:left-[-600px]
  
 
             max-[425px]:max-w-[873px] max-[425px]:w-full max-[425px]:h-[365px] max-[425px]:top-[-45px] max-[425px]:left-[-285px] max-[425px]:-rotate-90
@@ -33,9 +34,10 @@ const GetRADStudio = () => {
         />
 
         <img
-          className="right-vector w-full max-w-[811px] h-[897px] absolute bottom-[-7px] right-[-354px]
+          className="right-vector w-full max-w-[811px] h-[820px] absolute top-[130px] right-[-432px]
             max-[1440px]:h-[672px]
-            max-[744px]:h-[673px] max-[744px]:bottom-[-100px] max-[744px]:right-[-450px]
+            
+            max-[744px]:h-[673px] max-[744px]:top-[200px] max-[744px]:right-[-450px]
 
 
 
@@ -170,9 +172,9 @@ const GetRADStudio = () => {
           </div>
         </div>
 
-        <div className="elip-6 w-full max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
+        <div className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
 
-        <div className="elip-7 w-full max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
+        <div className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
       </section>
     );
 

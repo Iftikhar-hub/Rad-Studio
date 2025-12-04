@@ -3,7 +3,7 @@ import GlobalUsers from "../assets/icons/GlobalUsers.png";
 const JoinOurCoummunity = () => {
     return (
       <section
-        className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] 
+        className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip
          max-[1440px]:h-[640px]
          max-[1024px]:max-w-[864px]
 
@@ -16,7 +16,7 @@ const JoinOurCoummunity = () => {
       >
         <div
           className="JOC_content flex flex-col w-full max-w-[633px] h-[280px] gap-[32px]
-             max-[1440px]:max-w-[514px] max-[1440px]:h-[312px] max-[1440px]:gap-[32px]
+             max-[1440px]:max-w-[514px] max-[1440px]:h-[312px] max-[1440px]:gap-[32px] z-10
 
              max-[768px]:max-w-[718px] max-[768px]:items-center max-[768px]:h-[114px]
              max-[744px]:max-w-[695px] max-[744px]:items-center max-[744px]:h-[114px]
@@ -119,7 +119,11 @@ const JoinOurCoummunity = () => {
           />
         </div>
 
-        <div className="elip-10 w-full max-w-[869px] h-[100%]  absolute top-[286px]  left-[-197px] opacity-[10%] border border-white blur-[400px]  bg-[#E11D48]"></div>
+        <div className="elip-j10 w-full max-w-[869px] h-[100%]  absolute top-[286px]  left-[-197px] opacity-[10%] border border-white blur-[400px]  bg-[#E11D48]"></div>
+
+        <div className="elip-12 w-full max-w-[650px] h-[650px]  absolute top-[-130px]  right-[-70px] opacity-[10%] border border-white blur-[300px]  bg-[#6366F1]"></div>
+
+        <div className="elip-j11 w-full max-w-[869px] h-[100%]  absolute bottom-[-400px]  right-[-197px] opacity-[10%] border border-white blur-[200px]  bg-[#E11D48]"></div>
       </section>
     );
 

@@ -36,7 +36,21 @@ const Navbar = () => {
                 max-[1200px]:hidden"
         >
           <div className="Link-1 cursor-pointer flex items-center justify-center ">
-            <p>Products</p>
+            <p className="group relative">
+              Products
+              <div
+                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg opacity-0 gap-[4px] py-[12px] pl-[12px] z-20
+               invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
+              >
+                <ul className="flex flex-col text-[14px] gap-[15px] font-inter  leading-[16px] text-[#525252]">
+                  <li className="hover:text-[#8e0d0d]">RAD Studio</li>
+                  <li className="hover:text-[#8e0d0d]">Delphi</li>
+                  <li className="hover:text-[#8e0d0d]">C++ Builder</li>
+                  <li className="hover:text-[#8e0d0d]">Inter Base</li>
+                  <li className="hover:text-[#8e0d0d]">RAD Server</li>
+                </ul>
+              </div>
+            </p>
             <img
               src={downArrow}
               alt="downArrow"
@@ -44,7 +58,23 @@ const Navbar = () => {
             />
           </div>
           <div className="Link-1 cursor-pointer flex items-center justify-center max-[1440px]:max-w-[100px]">
-            <p className="FTpp w-full max-[1440px]:max-w-[90px]">Free Tools</p>
+            <p className="FTpp w-full max-[1440px]:max-w-[90px] relative group">
+              Free Tools
+              <div
+                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg opacity-0  z-20 gap-[4px] py-[12px] pl-[12px]
+               invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
+              >
+                <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
+                  <li className="hover:text-[#8e0d0d]">C++ Compiler</li>
+                  <li className="hover:text-[#8e0d0d]">Delphi Communit Ed.</li>
+                  <li className="hover:text-[#8e0d0d]">Rest Debugger</li>
+                  <li className="hover:text-[#8e0d0d]">FMX Stencils</li>
+                  <li className="hover:text-[#8e0d0d]">PyScripter</li>
+                  <li className="hover:text-[#8e0d0d]">CPP Check</li>
+                  <li className="hover:text-[#8e0d0d]">Python Libraries</li>
+                </ul>
+              </div>
+            </p>
             <img
               src={downArrow}
               alt="downArrow"
@@ -54,8 +84,21 @@ const Navbar = () => {
           <div className="Link-1 cursor-pointer flex items-center justify-center">
             <p>Blog</p>
           </div>
-          <div className="Link-1 cursor-pointer flex items-center justify-center">
-            <p>Resources</p>
+          <div className="Link-1 relative group cursor-pointer flex items-center justify-center">
+            <p>
+              Resources
+              <div
+                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg  opacity-0  z-20 gap-[4px] py-[12px] pl-[12px]
+               invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
+              >
+                <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
+                  <li className="hover:text-[#8e0d0d]">Learn</li>
+                  <li className="hover:text-[#8e0d0d]">Engage</li>
+                  <li className="hover:text-[#8e0d0d]">Partner</li>
+                  <li className="hover:text-[#8e0d0d]">Support</li>
+                </ul>
+              </div>
+            </p>
             <img
               src={downArrow}
               alt="downArrow"
