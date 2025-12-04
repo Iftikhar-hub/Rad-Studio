@@ -8,7 +8,7 @@ import logoGithub from "../assets/icons/logoGithub.png"
 const RADFooter = () => {
     return (
       <section
-        className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] 
+        className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  overflow-y-clip
         max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
@@ -18,18 +18,18 @@ const RADFooter = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full"
       >
         <div
-          className="Footer_Content flex flex-row justify-center w-[100%] h-[342px] gap-[32px]
+          className="Footer_Content  flex flex-row justify-center w-[100%] h-[342px] gap-[32px]
             max-[1440px]:max-w-[1280px] max-[1440px]:flex-col max-[1440px]:h-auto max-[1440px]:gap-[24px]
             max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
             max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]
             "
-        >
+         >
           <div
             className="Footer_Content_left flex flex-row gap-[16px]
                 max-[1440px]:max-w-[202px] max-[1440px]:h-[35px] cursor-pointer"
           >
             <img
-              className="FC_log max-w-[202px] h-[35px]"
+              className="FC_log max-w-[202px] z-20 h-[35px]"
               src={logo}
               alt="logo"
             />
@@ -46,7 +46,7 @@ const RADFooter = () => {
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
           >
             <div className="FCR_1 flex flex-col gap-[26px]">
-              <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] ">
+              <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-30 ">
                 Products
               </p>
 
@@ -192,6 +192,9 @@ const RADFooter = () => {
               </p>
             </div>
           </div>
+
+          
+          
         </div>
 
         <div
@@ -250,9 +253,6 @@ const RADFooter = () => {
           </p>
         </div>
 
-        <div className="elip-10 w-full max-w-[650px] h-[650px]  absolute top-[-130px]  right-[-70px] opacity-[10%] border border-white blur-[300px] -z-10  bg-[#DC2626]"></div>
-
-        <div className="elip-11 w-full max-w-[869px] -z-10 h-[869px]  absolute top-[-354px]  left-[-350px] opacity-[10%] border border-white blur-[300px]  bg-[#E11D48]"></div>
       </section>
     );
 

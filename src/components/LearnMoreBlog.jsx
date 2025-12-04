@@ -6,7 +6,7 @@ const LearnMoreBlog = () => {
       <section
         className="Learn_More_Blog w-[100%] h-[804px] mt-[128px] relative m-auto
          max-[1440px]:max-w-[1280px]  max-[1440px]:h-[814px] max-[1440px]:gap-[80px]
-         max-[1024px]:max-w-[864px]
+         max-[1024px]:max-w-[864px] overflow-x-clip
 
          max-[768px]:max-w-[718px]  max-[768px]:gap-[64px]
          max-[744px]:max-w-[695px]  max-[744px]:gap-[64px]
@@ -36,7 +36,7 @@ const LearnMoreBlog = () => {
         </p>
 
         <div
-          className="LMB_content_1 w-full max-w-[1462px] gap-[32px] mx-auto z-10  
+          className="LMB_content_1 w-full relative max-w-[1462px] gap-[32px] mx-auto z-10  
                  grid grid-cols-3 mt-[90px] 
                  max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
 
@@ -335,6 +335,10 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
+
+          <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4]"></div>
+
+          <div className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]"></div>
         </div>
 
         <img
@@ -344,9 +348,6 @@ const LearnMoreBlog = () => {
           src={MLB_Arrow}
           alt="MLB_Arrow"
         />
-
-        <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[268px]  left-[-253px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4]"></div>
-        <div className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-400px]  right-[0] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]"></div>
       </section>
     );
 }

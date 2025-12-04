@@ -11,7 +11,7 @@ const Hero = () => {
         max-[375px]:max-w-[375px] max-[375px]:overflow-x-hidden"
       >
         <div
-          className="hero-container opacity-100 flex flex-col justify-center items-center 
+          className="hero-container relative opacity-100 flex flex-col justify-center items-center 
              max-w-[434px] w-full h-auto gap-[24px]  z-10
              max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
@@ -160,11 +160,12 @@ const Hero = () => {
               </button>
             </div>
           </div>
+
+          <div className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
+          left-[-437px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1]"></div>
+
+          <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[10%] border border-white blur-[500px] bg-[#E11D48]"></div>
         </div>
-
-        <div className="w-full max-w-[440px] h-[440px]  absolute top-[0]  left-[-128px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]"></div>
-
-        <div className="w-full max-w-[869px] h-[869px]  absolute top-[0]  left-[1300px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48]"></div>
       </section>
     );
 }

@@ -15,7 +15,7 @@ const JoinOurCoummunity = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:mt-[80px]"
       >
         <div
-          className="JOC_content flex flex-col w-full max-w-[633px] h-[280px] gap-[32px]
+          className="JOC_content flex relative flex-col w-full max-w-[633px] h-[280px] gap-[32px]
              max-[1440px]:max-w-[514px] max-[1440px]:h-[312px] max-[1440px]:gap-[32px] z-10
 
              max-[768px]:max-w-[718px] max-[768px]:items-center max-[768px]:h-[114px]
@@ -99,6 +99,9 @@ const JoinOurCoummunity = () => {
               Subscribe
             </button>
           </div>
+
+          <div className="elip-j11 w-full max-w-[869px] h-[869px]  absolute bottom-[-692px]  
+          right-[181px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]"></div>
         </div>
 
         <div
@@ -118,12 +121,6 @@ const JoinOurCoummunity = () => {
             alt="GlobalUsers"
           />
         </div>
-
-        <div className="elip-j10 w-full max-w-[869px] h-[100%]  absolute top-[286px]  left-[-197px] opacity-[10%] border border-white blur-[400px]  bg-[#E11D48]"></div>
-
-        <div className="elip-12 w-full max-w-[650px] h-[650px]  absolute top-[-130px]  right-[-70px] opacity-[10%] border border-white blur-[300px]  bg-[#6366F1]"></div>
-
-        <div className="elip-j11 w-full max-w-[869px] h-[100%]  absolute bottom-[-400px]  right-[-197px] opacity-[10%] border border-white blur-[200px]  bg-[#E11D48]"></div>
       </section>
     );
 
