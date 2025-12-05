@@ -5,45 +5,48 @@ const JoinOurCoummunity = () => {
       <section
         className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip
          max-[1440px]:h-[640px]
-         max-[1024px]:max-w-[864px]
+         max-[1024px]:max-w-[864px] max-[1560px]:pl-[30px] max-[1560px]:pr-[30px]
 
-        max-[768px]:max-w-[768px] max-[768px]:mt-[280px] max-[768px]:flex-col
+        max-[800px]:max-w-[800px] max-[800px]:mt-[180px] max-[800px]:flex-col
 
-        max-[744px]:max-w-[744px] max-[744px]:mt-[280px] max-[744px]:flex-col
+        max-[744px]:max-w-[744px] max-[744px]:flex-col
 
         max-[425px]:max-w-[425px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:mt-[80px]
         max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:mt-[80px]"
       >
         <div
-          className="JOC_content flex relative flex-col w-full max-w-[633px] h-[280px] gap-[32px]
-             max-[1440px]:max-w-[514px] max-[1440px]:h-[312px] max-[1440px]:gap-[32px] z-10
+          className="JOC_content flex relative flex-col w-full max-w-[633px] gap-[32px]
+             max-[1440px]:max-w-[514px]  max-[1440px]:gap-[32px] z-10
 
-             max-[768px]:max-w-[718px] max-[768px]:items-center max-[768px]:h-[114px]
-             max-[744px]:max-w-[695px] max-[744px]:items-center max-[744px]:h-[114px]
+             max-[800px]:max-w-[750px] max-[800px]:items-center 
+             max-[744px]:max-w-[695px] max-[744px]:items-center 
 
 
-             max-[425px]:max-w-[425px] max-[425px]:h-auto max-[425px]:gap-[32px] max-[425px]:top-[48px] max-[425px]:left-[16px]
+             max-[425px]:max-w-[425px] max-[425px]:h-auto max-[425px]:gap-[32px] max-[425px]:top-[48px] 
 
-             max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:gap-[32px] max-[375px]:top-[48px] max-[375px]:left-[16px]"
+             max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:gap-[32px] max-[375px]:top-[48px] "
         >
           <div
-            className="JOC_c1 flex flex-col w-[100%] h-[196px] gap-[8px]
+            className="JOC_c1 flex flex-col w-[100%]  gap-[8px]
                    max-[1440px]:gap-[8px] max-[744px]:text-center max-[375px]:mt-[-100px]
                    max-[375px]:h-auto"
           >
             <div
-              className="TwoPs max-[768px]:flex max-[768px]:justify-center
-               max-[768px]:items-center max-[768px]:gap-[8px]
+              className="TwoPs max-[800px]:flex max-[800px]:justify-center
+
+               max-[800px]:items-center max-[800px]:gap-[8px]
               
               max-[744px]:flex max-[744px]:justify-center
                max-[744px]:items-center max-[744px]:gap-[8px]
+               max-[662px]:block
                 max-[425px]:block
                     max-[375px]:block"
             >
               <p
                 className="JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800
                     
-                        max-[768px]:text-[36px] 
+                        max-[800px]:text-[36px] 
+                        
                         max-[425px]:text-[30px]
                         max-[375px]:text-[30px]"
               >
@@ -52,7 +55,8 @@ const JoinOurCoummunity = () => {
               <p
                 className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent
                     
-                       max-[768px]:text-[36px] 
+                       max-[800px]:text-[36px] 
+                    
                        max-[425px]:text-[27px]
                        max-[375px]:text-[27px]"
               >
@@ -63,7 +67,7 @@ const JoinOurCoummunity = () => {
             <p
               className="JOC_d1 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] text-[#525252]
                    
-                    max-[768px]:text-[20px] max-[768px]:text-center"
+                    max-[800px]:text-[20px] max-[800px]:text-center"
             >
               Join our email list and receive the latest case studies, event
               updates, product news, and much more.
@@ -72,7 +76,7 @@ const JoinOurCoummunity = () => {
 
           <div
             className="JOC_c2 flex flex-row w-full max-w-[491px] h-[52px] gap-[16px]
-                max-[1440px]:h-[48px] max-[1449px]:mt-[64px]
+                max-[1440px]:h-[48px] 
 
                 max-[768px]:mt-[auto]
                 max-[744px]:mt-[auto]
@@ -100,18 +104,20 @@ const JoinOurCoummunity = () => {
             </button>
           </div>
 
-          <div className="elip-j11 w-full max-w-[869px] h-[869px]  absolute bottom-[-692px]  
-          right-[181px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]"></div>
+          <div
+            className="elip-j11 w-full max-w-[869px] h-[869px]  absolute bottom-[-692px]  
+          right-[181px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]"
+          ></div>
         </div>
 
         <div
           className="JOC_map w-full max-w-[850px] h-[438px] flex justify-center items-center
-            max-[1440px]:max-w-[734px] max-[1440px]:h-[365px]
+            max-[1440px]:max-w-[734px]
 
-            max-[768px]:max-w-[718px] max-[768px]:mt-[120px]
-            max-[744px]:max-w-[695px] max-[744px]:mt-[120px]
-            max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-[209px] max-[425px]:mt-[0px] 
-            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[375px]:mt-[0px]"
+            max-[768px]:max-w-[718px] 
+            max-[744px]:max-w-[695px] 
+            max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-[209px] max-[425px]:mt-[30px] 
+            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[375px]:mt-[30px]"
         >
           <img
             className="jm w-[100%] h-[410px] max-[744px]:h-[365px] 

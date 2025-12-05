@@ -23,7 +23,7 @@ const RADFooter = () => {
             max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
             max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]
             "
-         >
+        >
           <div
             className="Footer_Content_left flex flex-row gap-[16px]
                 max-[1440px]:max-w-[202px] max-[1440px]:h-[35px] cursor-pointer"
@@ -40,6 +40,7 @@ const RADFooter = () => {
                      max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
 
 
+                     max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3
                      max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-3
 
                      max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
@@ -192,9 +193,6 @@ const RADFooter = () => {
               </p>
             </div>
           </div>
-
-          
-          
         </div>
 
         <div
@@ -252,7 +250,6 @@ const RADFooter = () => {
             2022 Embarcadero Inc. All Rights Reserved
           </p>
         </div>
-
       </section>
     );
 

@@ -73,12 +73,12 @@ const GetRADStudio = () => {
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
           >
             <div
-              className="RGC-l1 justify-center items-center h-[110px] opacity-100 flex flex-col gap-[16px]
+              className="RGC-l1 justify-center items-center h-[110px] opacity-100 flex flex-col gap-[16px] 
                     max-[1440px]:max-w-[598px] max-[1440px]:w-full
 
                     max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto
                     max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
-            >
+             >
               <p
                 className="GRC-ps font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
                         max-[744px]:text-[40px]
@@ -99,7 +99,7 @@ const GetRADStudio = () => {
               <p
                 className="GRS-p1 opacity-100 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] 
                         text-[#262626] text-center
-                        max-[425px]:text-[20px]
+                        max-[425px]:text-[20px] max-[540px]:text-[16px]
                         max-[744px]:text-[20px]"
               >
                 One code base, Native on any platform, Fast frame work.

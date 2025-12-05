@@ -122,6 +122,7 @@ const YourImagination = () => {
     max-[1024px]:max-w-[1024px]
     max-[768px]:max-w-[768px] max-[768px]:items-center
     max-[744px]:max-w-[744px] max-[744px]:gap-[48px] max-[744px]:mt-[80px] max-[744px]:items-center
+    max-[744px]:overflow-x-hidden
     max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]
     max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:mt-[80px]"
     >

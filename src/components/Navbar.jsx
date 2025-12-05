@@ -36,10 +36,10 @@ const Navbar = () => {
                 max-[1200px]:hidden"
         >
           <div className="Link-1 cursor-pointer flex items-center justify-center ">
-            <p className="group relative">
+            <p className="group relative hover:text-[#8e0d0d]">
               Products
               <div
-                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg opacity-0 gap-[4px] py-[12px] pl-[12px] z-20
+                className="absolute left-[-50px] top-[30px]  bg-white shadow-xl rounded-lg opacity-0 gap-[4px] p-[12px] z-20
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter  leading-[16px] text-[#525252]">
@@ -58,10 +58,10 @@ const Navbar = () => {
             />
           </div>
           <div className="Link-1 cursor-pointer flex items-center justify-center max-[1440px]:max-w-[100px]">
-            <p className="FTpp w-full max-[1440px]:max-w-[90px] relative group">
+            <p className="FTpp w-full max-[1440px]:max-w-[90px] hover:text-[#8e0d0d] relative group">
               Free Tools
               <div
-                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg opacity-0  z-20 gap-[4px] py-[12px] pl-[12px]
+                className="absolute left-[-50px] top-[30px] bg-white shadow-xl rounded-lg opacity-0  z-20 gap-[4px] p-[12px]
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
@@ -81,14 +81,14 @@ const Navbar = () => {
               className="downArrow max-w-[19px] h-[19px]"
             />
           </div>
-          <div className="Link-1 cursor-pointer flex items-center justify-center">
+          <div className="Link-1 hover:text-[#8e0d0d] cursor-pointer flex items-center justify-center">
             <p>Blog</p>
           </div>
           <div className="Link-1 relative group cursor-pointer flex items-center justify-center">
-            <p>
+            <p className="hover:text-[#8e0d0d]">
               Resources
               <div
-                className="absolute left-[-50px] top-[30px] w-[311px] bg-white shadow-xl rounded-lg  opacity-0  z-20 gap-[4px] py-[12px] pl-[12px]
+                className="absolute left-[-50px] top-[30px] bg-white shadow-xl rounded-lg  opacity-0  z-20 gap-[4px] p-[12px]
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
@@ -109,7 +109,7 @@ const Navbar = () => {
             <p>Getit</p>
           </div>
           <div className="Link-1 flex cursor-pointer justify-center">
-            <p className="ppppppp w-full max-[1440px]:max-w-[73px]">
+            <p className="ppppppp hover:text-[#8e0d0d] w-full max-[1440px]:max-w-[73px]">
               New Tools
             </p>
           </div>
@@ -171,7 +171,7 @@ const Navbar = () => {
               max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]
               
               
-              max-[768px]:max-w-[768px] max-[768px]:h-[90px] max-[768px]:px-[24px] max-[768px]:py-[16px] max-[768px]:flex-col max-[768px]:gap-[16px]
+              max-[768px]:max-w-[768px] max-[768px]:h-[90px] max-[768px]:px-[24px] max-[768px]:py-[16px] max-[800px]:flex-col max-[800px]:gap-[16px]
 
               max-[744px]:max-w-[744px] max-[744px]:h-[90px] max-[744px]:px-[24px] max-[744px]:py-[16px] max-[744px]:flex-col max-[744px]:gap-[16px]
              
@@ -220,7 +220,8 @@ const Navbar = () => {
 
         <div
           className="navBottom-left flex items-center h-[21px] gap-[8px]
-                max-[425px]:grid max-[425px]:grid-cols-3 max-[425px]:w-[344px]"
+                max-[500px]:grid max-[500px]:grid-cols-3 max-[500px]:max-w-[344px]
+                max-[395px]:grid-cols-2"
         >
           <a
             className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
@@ -252,7 +253,7 @@ const Navbar = () => {
           </a>
 
           <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[425px]:ml-[135px]
+            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[500px]:ml-[135px] max-[395px]:ml-[0]
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"

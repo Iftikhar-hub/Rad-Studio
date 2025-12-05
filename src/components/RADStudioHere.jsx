@@ -19,15 +19,15 @@ const RADStudioHere = () => {
         max-[1024px]:mt-auto
         max-[768px]:max-w-[718px]
         max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
-        max-[744px]:mt-[80px]
+        max-[744px]:mt-[128px]
         
         max-[425px]:max-w-[393px] max-[425px]:gap-[48px] max-[425px]:mt-[0px] 
         max-[375px]:max-w-[343px] max-[375px]:gap-[48px] max-[375px]:mt-[0px] "
       >
         <div
           className="RAD-Studio-Here-1 flex flex-col justify-center items-center w-full max-w-[1274px] h- 
-             [204px] gap-[24px] relative
-             max-[1024px]:max-w-[863px]
+             [204px] gap-[24px] relative max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
+             max-[1024px]:max-w-[863px] max-[744px]:pl-[20px] max-[744px]:pr-[20px]
              max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
 
              max-[375px]:max-w-[343px] max-[375px]:gap-[16px]"
@@ -77,8 +77,9 @@ const RADStudioHere = () => {
 
         <div
           className="RAD-Studio-Here-1 flex flex-col items-center w-full max-w-[1274px] h- 
-             auto gap-[24px]
+             auto gap-[24px] max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px]
+             max-[744px]:pl-[20px] max-[744px]:pr-[20px]
              max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
               max-[375px]:max-w-[343px]"
         >

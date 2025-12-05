@@ -1,11 +1,42 @@
 import ReadMore from "../assets/icons/ReadMore.png";
 import MLB_Arrow from "../assets/icons/MLB_Arrow.png";
+import React from "react";
+
+
+const data = [
+  {
+    title: "3 Main C++ Compiler Tips to Develop Successful Apps",
+    
+  },
+  {
+    title: "Top 5 Platforms For Windows Applications Development in 2022",
+   
+  },
+  {
+    title: "Everything You Need to Know About Cross-Platform Development",
+    
+  },
+  {
+    title: "A Complete Guide To Programming In C++ – Visual Programming",
+  
+  },
+  {
+    title:
+      "A Complete Guide To Programming In C++ – Object Oriented Programming",
+ 
+  },
+  {
+    title: "How C++ Works With Libraries and More",
+   
+  },
+];
+
 
 const LearnMoreBlog = () => {
     return (
       <section
-        className="Learn_More_Blog w-[100%] h-[804px] mt-[128px] relative m-auto
-         max-[1440px]:max-w-[1280px]  max-[1440px]:h-[814px] max-[1440px]:gap-[80px]
+        className="Learn_More_Blog w-[100%] mt-[128px] relative m-auto
+         max-[1440px]:max-w-[1280px]   max-[1440px]:gap-[80px]
          max-[1024px]:max-w-[864px] overflow-x-clip
 
          max-[768px]:max-w-[718px]  max-[768px]:gap-[64px]
@@ -36,9 +67,14 @@ const LearnMoreBlog = () => {
         </p>
 
         <div
-          className="LMB_content_1 w-full relative max-w-[1462px] gap-[32px] mx-auto z-10  
+          className="LMB_content_1 w-full relative max-w-[1462px] gap-[100px] mx-auto z-10  
                  grid grid-cols-3 mt-[90px] 
+                 max-[1500px]:pl-[20px]   max-[1500px]:pr-[20px] 
+                 
                  max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
+
+                 max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
+                 max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[744px]:mt-[64px]
@@ -51,290 +87,49 @@ const LearnMoreBlog = () => {
 
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
         >
-          <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px] h-[188px] pl-[8px] gap-[16px]
+          {data.map((item) => (
+            <div>
+              <div
+                className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[744px]:max-w-[331px] "
-          >
-            <p
-              className="LMB_c1_p1  font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px]
-                        max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
-
-            <p
-              className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-                        max-[1440px]:h-[144px]
-                        max-[1024px]:text-[23px]
-                        max-[744px]:text-[28px]"
-            >
-              3 Main C++ Compiler Tips to Develop Successful Apps
-            </p>
-
-            <div
-              className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]
-                        "
-            >
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
+                     max-[744px]:max-w-[331px]"
               >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
-
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
-            </div>
-          </div>
-
-          <div
-            className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px]
-                    max-[768px]:hidden
-                    max-[744px]:hidden
-                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
-                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
-          ></div>
-
-          <div
-            className="LMB_c2 flex flex-col w-full max-w-[466px] h-[236px] pl-[8px] gap-[16px]
-                    max-[1440px]:max-w-[405.33px] max-[1440px]:h-[243px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px]"
-          >
-            <p
-              className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                        max-[1440px]:h-[30px]
-                        max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
-
-            <p
-              className="LMB_c1_p2  font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-                         max-[1440px]:h-[144px]
-                         max-[1024px]:text-[23px]
-                         max-[744px]:text-[28px]"
-            >
-              Top 5 Platforms For Windows Applications Development in 2022
-            </p>
-
-            <div
-              className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]
-                          "
-            >
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
-              >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
-
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
-            </div>
-          </div>
-
-          <div
-            className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px] z-10
-                    max-[768px]:hidden
-                    max-[744px]:hidden
-                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
-                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
-          ></div>
-
-          <div
-            className="LMB_c3 flex flex-col w-full max-w-[466px] h-[236px] pl-[8px] gap-[16px]
-                    max-[1440px]:max-w-[405.33px] max-[1440px]:h-[243px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px] z-10"
-          >
-            <p
-              className="LMB_c1_p1  font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                        max-[1440px]:h-[30px]
-                        max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
-
-            <p
-              className="LMB_c1_p2  font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-                          max-[1440px]:h-[144px]
-                          max-[1024px]:text-[23px]
-                          max-[744px]:text-[28px]"
-            >
-              Everything You Need to Know About Cross-Platform Development
-            </p>
-
-            <div
-              className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]
-                        "
-            >
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
-              >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
-
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
-            </div>
-          </div>
-
-          <div
-            className="Sing_lLine col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px]
-                    max-[768px]:hidden
-                    max-[744px]:hidden
-                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
-                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
-          ></div>
-
-          <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px] h-[188px] pl-[8px] gap-[16px]
-                    max-[1440px]:max-w-[405.33px] max-[1440px]:h-[234px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px] z-10"
-          >
-            <p
-              className="LMB_c1_p1  font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
+                <p
+                  className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
                          max-[1440px]:h-[30px] max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
+                >
+                  Learning & Development
+                </p>
 
-            <p
-              className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-              max-[1024px]:text-[23px]
-                         max-[1440px]:h-[144px] max-[744px]:text-[28px]"
-            >
-              A Complete Guide To Programming In C++ – Visual Programming
-            </p>
+                <p
+                  className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
+                
+                max-[1024px]:text-[23px]
+                max-[744px]:text-[28px]"
+                >
+                  {item.title}
+                </p>
 
-            <div className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]">
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
-              >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
+                <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
+                  <p
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
+                           group"
+                  >
+                    Read More
+                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
+                  </p>
 
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
+                  <img
+                    className="ReadMore-arrow max-w-[28px] h-[28px]"
+                    src={ReadMore}
+                    alt="ReadMore"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div
-            className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px]
-                    max-[768px]:hidden
-                    max-[744px]:hidden
-                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
-                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
-          ></div>
-
-          <div
-            className="LMB_c2 flex flex-col w-full max-w-[466px] h-[236px] pl-[8px] gap-[16px]
-                    max-[1440px]:max-w-[405.33px] max-[1440px]:h-[282px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px]"
-          >
-            <p
-              className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
-
-            <p
-              className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-              max-[1024px]:text-[23px]
-                         max-[1440px]:h-[192px] max-[744px]:text-[28px]"
-            >
-              A Complete Guide To Programming In C++ – Object Oriented
-              Programming
-            </p>
-
-            <div className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]">
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
-              >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
-
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
-            </div>
-          </div>
-
-          <div
-            className="Sing_lLine hidden col-span-3 border border-[#D4D4D4] border-dashed
-                    max-[1440px]:max-w-[1280px]
-                    max-[768px]:hidden
-                    max-[744px]:hidden
-                    max-[425px]:block max-[425px]:col-span-1 max-[425px]:w-[343px]
-                    max-[375px]:block max-[375px]:col-span-1 max-[375px]:w-[343px]"
-          ></div>
-
-          <div
-            className="LMB_c3 flex flex-col w-full max-w-[466px] h-[236px] pl-[8px] gap-[16px]
-                    max-[1440px]:max-w-[405.33px] max-[1440px]:h-[286px] max-[1440px]:gap-[16px]
-                    max-[744px]:max-w-[331px]"
-          >
-            <p
-              className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[744px]:text-[18px]"
-            >
-              Learning & Development
-            </p>
-
-            <p
-              className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-              max-[1024px]:text-[23px]
-                         max-[1440px]:h-[96px] max-[744px]:text-[28px]"
-            >
-              How C++ Works With Libraries and More
-            </p>
-
-            <div className="LMB_ReadMore flex flex-row w-full max-w-[134px] h-[30px] gap-[8px]">
-              <p
-                className="LMB_RM_1 relative inline-block w-[98px] h-[30px] font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[744px]:text-[18px] cursor-pointer 
-                           group "
-              >
-                Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
-              </p>
-
-              <img
-                className="ReadMore-arrow max-w-[28px] h-[28px]"
-                src={ReadMore}
-                alt="ReadMore"
-              />
-            </div>
-          </div>
+          ))}
 
           <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4]"></div>
 
@@ -343,7 +138,7 @@ const LearnMoreBlog = () => {
 
         <img
           className="max-w-[60px] w-full h-[80px] absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
-            max-[1024px]:hidden
+            max-[1280px]:hidden
             max-[744px]:hidden"
           src={MLB_Arrow}
           alt="MLB_Arrow"

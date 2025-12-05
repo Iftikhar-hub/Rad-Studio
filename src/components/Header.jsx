@@ -9,9 +9,9 @@ const Header = () => {
           max-[375px]:max-w-[375px]"
       >
         <div
-          className="hd_t1 w-[100%] mx-auto flex justify-between items-center px-[80px]  
+          className="hd_t1 w-[100%] mx-auto flex justify-between items-center  
                py-[16px]
-               max-[1440px]:flex-col max-[1440px]:gap-[8px]
+               
                max-[1440px]:w-[100%]
                max-[744px]:w-[100%] max-[744px]:px-[24px]
                
@@ -21,7 +21,7 @@ const Header = () => {
           <div
             className="text-sm flex flex-row
 
-             max-[425px]:max-w-[395px] max-[425px]:flex max-[425px]:flex-col max-[425px]:items-center
+             max-[500px]:max-w-[470px] max-[500px]:flex max-[500px]:flex-col max-[500px]:items-center
             
             max-[375px]:max-w-[345px] max-[375px]:flex max-[375px]:flex-col max-[375px]:items-center
                    "
@@ -43,8 +43,8 @@ const Header = () => {
           <div className="flex items-center space-x-6 max-[375px]:mr-[14px]">
             <div
               className="flex space-x-6 text-sm
-                    max-[1024px]:text-[12px]
-                    max-[768px]:hidden"
+                    max-[1200px]:text-[12px]
+                    max-[1024px]:hidden"
             >
               <a href="#" className="hover:text-[#A3A3A3] ">
                 My Downloads

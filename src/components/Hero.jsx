@@ -73,54 +73,57 @@ const Hero = () => {
         <div
           className="heroPicture w-full max-w-[1274px] h-[712px] relative
             max-[1024px]:max-w-[864px] z-10
-              max-[1440px]:max-w-[1260px] max-[1440px]:w-full max-[1440px]:h-[886px] max-[1440px]:gap-[64px]
+            
+              max-[1440px]:max-w-[1000px] max-[1024px]:max-w-[718px]
+              max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
+               
 
-              max-[768px]:max-w-[718px]
+             
 
               max-[744px]:max-w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
               max-[425px]:max-w-[393px]
               max-[375px]:max-w-[343px]"
         >
-          <img
-            src={Group}
-            alt="Group"
-            className="gimage w-full max-[1440px]:max-w-[1260px] max-[1440px]:h-[712px]
-                max-[1024px]:h-[470px]
-                max-[768px]:max-w-[718px]
-                max-[744px]:max-w-[695px] max-[744px]:h-[389px]
-                max-[425px]:max-w-[393px] max-[425px]:h-[192px]
-                 max-[375px]:max-w-[343px]  max-[375px]:h-[192px]"
-          />
+          <div className="relative  w-[100%] mx-auto px-4 sm:px-6">
+            <div className="md:hidden w-full aspect-video relative">
+              <img
+                src={Group}
+                alt="Group"
+                className="w-full h-full object-cover rounded-[16px]"
+              />
 
-          <div
-            className="bg-black absolute top-[0] w-full max-w-[100%] h-[100%] rounded-[16px] flex  
-                 justify-center items-center bg-black/85
-                 max-[1440px]:max-w-[1260px] max-[1440px]:h-[712px]  max-[1440px] :left-[-10px] 
-                 max-[1024px]:h-[470px]
-                 max-[1440px]:left-[0px]
-                 max-[768px]:max-w-[718px]
-                 max-[744px]:max-w-[695px] max-[744px]:h-[389px] max-[744px]:top-[0px] max-[744px]:left-[0px] 
-                  max-[425px]:max-w-[393px] max-[425px]:h-[192px]
-                 max-[375px]:max-w-[343px]  max-[375px]:h-[192px] "
-          >
-            <img
-              src={playbutton}
-              alt="playbutton"
-              className="playButton max-[1440px]:max-w-[85px] max-[1440px]:h-[85px]
-                    max-[744px]:max-w-[47px] max-[744px]:h-[47px]
-                    max-[425px]:max-w-[27px] max-[425px]:h-[27px]
-                    max-[375px]:max-w-[23px] max-[375px]:h-[23px]"
-            />
+              <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
+                <img src={playbutton} alt="Play" className="w-10 h-10" />
+              </div>
+            </div>
+
+            <div className="hidden md:block relative">
+              <img
+                src={Group}
+                alt="Group"
+                className="w-full max-w-[1000px] h-[612px] rounded-[16px]"
+              />
+
+              <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
+                <img
+                  src={playbutton}
+                  alt="Play"
+                  className="w-[85px] h-[85px]"
+                />
+              </div>
+            </div>
           </div>
 
           <div
             className="heroLower w-[100%]  rounded-[16px] border py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
-                    max-[1440px]:max-w-[1279px]
+                    max-[1440px]:max-w-[1000px] 
+                     max-[1024px]:w-[90%] max-[1024px]:mx-auto
+
                     max-[744px]:max-w-[695px]  max-[744px]:gap-[32px]
 
-                    max-[425px]:max-w-[393px]  max-[425px]:flex-col
-                    max-[425px]:p-[16px]
+                    max-[600px]:mx-auto max-[600px]:flex-col
+                    max-[600px]:p-[16px]
                     
                     max-[375px]:max-w-[343px]  max-[375px]:flex-col
                     max-[375px]:p-[16px]"
@@ -130,7 +133,7 @@ const Hero = () => {
                      max-[744px]:max-w-[432px]  max-[744px]:gap-[16px]
                      max-[744px]:justify-start
 
-                     max-[425px]:flex-col max-[425px]:justify-center max-[425px]:mt-[18px]
+                     max-[600px]:flex-col max-[600px]:justify-center max-[600px]:mt-[18px]
                      max-[375px]:flex-col max-[375px]:justify-center max-[375px]:mt-[18px]"
             >
               <img src={rad} alt="rad" className="w-[48px] h-[48px]" />
@@ -148,7 +151,7 @@ const Hero = () => {
 
             <div
               class="flex flex-row w-full max-w-[167px] h-[43px] rounded-[12px] justify-center items-center bg-[#262626]
-             max-[425px]:max-w-[311px]
+             max-[600px]:max-w-[311px]
              max-[375px]:max-w-[311px] hover:bg-[#565454]
              "
             >
@@ -161,8 +164,10 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
-          left-[-437px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1]"></div>
+          <div
+            className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
+          left-[-437px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1]"
+          ></div>
 
           <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[10%] border border-white blur-[500px] bg-[#E11D48]"></div>
         </div>
